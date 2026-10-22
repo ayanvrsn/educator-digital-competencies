@@ -142,7 +142,7 @@ Acceptance criteria: Real board and task views show owner, status, priority, dea
 Dependencies (local IDs): W14
 Target: 2026-10-24
 Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Blocked. Do not close until acceptance criteria are met.",Task,High,Open,,2026-10-24
+Current preparation status: Review. Do not close until acceptance criteria are met.",Task,High,Open,,2026-10-24
 Build and verify consolidated report,"Local planning ID: W19
 Responsible student: Ayan Abilbek
 Expected outcome: Single PDF containing all eleven sections.
