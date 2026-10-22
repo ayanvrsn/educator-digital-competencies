@@ -21,11 +21,12 @@ Teacher/admin accounts, an initial assessment, three modules, practical submissi
 - [Architecture diagrams and editable SVG sources](diagrams/)
 - [Interactive UX prototype](prototype/index.html)
 - [Requirements](docs/requirements.csv) and [test plan](docs/test-plan.csv)
+- [Authentic YouTrack screenshots PDF](docs/YouTrack_Task_Screenshots.pdf)
 - [Work breakdown](project-management/tasks.csv) and [YouTrack import preparation](project-management/youtrack-import.csv)
 
 Repository: https://github.com/ayanvrsn/educator-digital-competencies (private).
 
-Tracker: https://ayan-educator-diploma.youtrack.cloud/projects/EDU. Both were created on 22 October 2026. Recipient access is pending account details. Local W01-W25 identifiers map to actual YouTrack issues in project-management/issue-map.csv after task creation.
+Tracker: https://ayan-educator-diploma.youtrack.cloud/projects/EDU. Both were created on 22 October 2026. Recipient access is pending account details. The mapping from local W01-W25 planning references to actual YouTrack issues is in project-management/issue-map.csv.
 
 ## Open the prototype
 
@@ -41,7 +42,7 @@ Then open `http://127.0.0.1:8765/prototype/`. State exists only in memory and is
 
 Use one permanent repository. Develop in task branches and use pull requests. Put the real tracker ID in the branch, commit and PR description; link the PR back to its task. Keep main as the reviewed baseline and request selected significant reviews from the supervisor at agreed checkpoints. Record work honestly from the actual start date. Do not backdate commits or fabricate review activity.
 
-Create the immutable `pre-defense-1` tag only after the actual submission revision, access and required evidence are final. The current review draft is not a tagged submission. See `project-management/submission-checklist.txt`.
+The live form requires `prob-period-1`; the DOCX says `pre-defense-1`. Create both immutable tags on the same exact submission commit only after the revision, access and required evidence are final. Use the `prob-period-1` URL in the form. The current review draft is not a tagged submission. See `project-management/submission-checklist.txt`.
 
 ## Privacy
 

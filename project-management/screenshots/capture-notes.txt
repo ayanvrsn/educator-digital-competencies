@@ -1,0 +1,5 @@
+Authentic browser captures from the live YouTrack EDU project on 22 October 2026.
+Compiled 22 October 2026, 20:55 Astana (UTC+5)
+board.jpg is the full scrollable board; board-overview.jpg is the viewport overview.
+EDU-3, EDU-5 and EDU-20 are full-page task captures. No mock tracker screens are used.
+The board records preparation before final review and release. Refresh before submitting.

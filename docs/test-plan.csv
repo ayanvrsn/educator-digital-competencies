@@ -1,0 +1,12 @@
+﻿Test ID,Requirements,Method,Expected result
+TC01,"FR01, NFR01","Use unauthenticated, teacher A, teacher B and admin requests. Attempt cross-user access and admin mutation.",401/403 as appropriate; no protected data or changes.
+TC02,FR02-FR03,"Submit incomplete, valid and tampered answer sets; retry a valid request twice.",Missing/tampered input rejected; valid score correct; one saved attempt.
+TC03,FR04,"Test scores 0/3, 1/3, 2/3, 3/3, ties, completed modules and absent attempt.",Documented ordering and reason; no arbitrary recommendation.
+TC04,"FR05, FR09",Publish v2 after a teacher completed an attempt on v1.,Teacher history still displays v1; new sessions receive published v2.
+TC05,"FR06, FR11",Save a draft; reload; submit empty text or a malformed link; simulate network failure.,Draft recoverable; errors visible; failure never shown as successful submission.
+TC06,FR07-FR08,"Submit practice, request revision, resubmit and accept after all required steps.",Awaiting review and revision states preserved; completion only when conditions are met.
+TC07,"FR10, FR12",Export own data and consented pilot records; test another user’s identifier.,Only authorised/consented records returned; disallowed access denied.
+TC08,NFR02-NFR03,"Keyboard-only walkthrough, screen-reader labels, 200% zoom and 360/768/1280 widths.",No unreachable control or hidden focus; errors announced; no page overflow.
+TC09,NFR04,Run defined 20-session staging workload after warm-up; retain logs and dataset size.,Report p50/p95 latency and errors against target; do not omit failed requests.
+TC10,"NFR05, NFR08",Inject a transaction failure and restore a backup into an isolated database.,No partial completed record; restored references/counts match expected data.
+TC11,NFR06,Fresh checkout on a clean environment using documented configuration.,"Migration, seed and selected tests succeed without private files."

@@ -1,0 +1,22 @@
+LOCAL UX PROTOTYPE CHECKS — 22 OCTOBER 2026
+
+Scope: manual browser walkthrough in the Codex in-app browser using synthetic examples only. These checks concern the supplied HTML prototype, not an implemented backend or a teacher usability study.
+
+Observed:
+- An unanswered diagnostic item prevents advancing and displays a clear message.
+- Nine scenario questions lead to three separate confidence responses.
+- A synthetic answer pattern M1=0/3, M2=3/3, M3=3/3 recommends M1. Confidence remains separate.
+- Marking the lesson step complete changes progress but does not complete the module.
+- Empty practice submission is rejected.
+- An HTTP resource link is rejected; leaving the optional link empty is accepted.
+- Saving a draft preserves the synthetic response when navigating to Progress and back within the same page session.
+- Submitting changes the state to Awaiting review.
+- The administrator demo requires explanatory feedback before accepting a submission.
+- Four synthetic rubric ratings 2+2+2+1 display 7/8; acceptance plus the completed lesson produces Completed.
+- Re-submitting accepted practice returns to Awaiting review. Clicking the lesson completion control does not restore the old acceptance.
+
+Defect fixed during preparation: stale acceptance could complete a re-submitted task. Acceptance is now cleared on draft save and resubmission.
+
+Compact layout: a browser screenshot at an observed CSS width of 599 px showed no horizontal overflow (scrollWidth = clientWidth = 599). A requested 360 px override did not take effect, so 360 px behaviour is not claimed as tested.
+
+Limitations: no server authentication, database, role-isolation, performance or real learning evaluation was tested. No participant results are present. Reload intentionally clears the demonstration session. Screenshots of progress contain clearly marked synthetic data.

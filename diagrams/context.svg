@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="650" height="330" preserveAspectRatio="xMinYMin meet" viewBox="0 0 650 330" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="650" height="330"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-330)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="225" y="90" width="210" height="140" rx="5" ry="5" style="stroke: rgb(81%,84%,86%); stroke-linecap: butt; stroke-width: 1; fill: rgb(92%,95%,95%); fill-rule: evenodd;"/>
+			<text x="276.6416015625" y="188.8" style="font-family: Sans; font-size: 12px;fill: rgb(9%,13%,19%); stroke:none;" transform="translate(0,377) scale(1,-1)">Educator learning</text>
+			<text x="282.5888671875" y="172.0" style="font-family: Sans; font-size: 12px;fill: rgb(9%,13%,19%); stroke:none;" transform="translate(0,344) scale(1,-1)">web application</text>
+			<text x="330.0" y="155.20000000000002" style="font-family: Sans; font-size: 12px;fill: rgb(9%,13%,19%); stroke:none;" transform="translate(0,310) scale(1,-1)"></text>
+			<text x="262.67578125" y="138.4" style="font-family: Sans; font-size: 12px;fill: rgb(9%,13%,19%); stroke:none;" transform="translate(0,276) scale(1,-1)">Assessment, modules,</text>
+			<text x="264.4716796875" y="121.60000000000002" style="font-family: Sans; font-size: 12px;fill: rgb(9%,13%,19%); stroke:none;" transform="translate(0,243) scale(1,-1)">practice and progress</text>
+			<rect x="5" y="125" width="140" height="70" rx="5" ry="5" style="stroke: rgb(81%,84%,86%); stroke-linecap: butt; stroke-width: 1; fill: rgb(92%,95%,95%); fill-rule: evenodd;"/>
+			<text x="30.454833984375" y="165.28" style="font-family: Sans; font-size: 11px;fill: rgb(9%,13%,19%); stroke:none;" transform="translate(0,330) scale(1,-1)">School educator</text>
+			<rect x="505" y="125" width="140" height="70" rx="5" ry="5" style="stroke: rgb(81%,84%,86%); stroke-linecap: butt; stroke-width: 1; fill: rgb(92%,95%,95%); fill-rule: evenodd;"/>
+			<text x="533.80908203125" y="170.56" style="font-family: Sans; font-size: 11px;fill: rgb(9%,13%,19%); stroke:none;" transform="translate(0,341) scale(1,-1)">Administrator /</text>
+			<text x="528.2392578125" y="155.16" style="font-family: Sans; font-size: 11px;fill: rgb(9%,13%,19%); stroke:none;" transform="translate(0,310) scale(1,-1)">content reviewer</text>
+			<path d="M 145,177 L 225,177 Z" style="stroke: rgb(32%,38%,44%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="225 177, 218.6969 180.0448, 218.6969 173.9552" style="stroke: rgb(32%,38%,44%); stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,38%,44%); fill-rule: evenodd;"/>
+			<text x="154.8984375" y="185.0" style="font-family: Sans; font-size: 8px;fill: rgb(9%,13%,19%); stroke:none;" transform="translate(0,370) scale(1,-1)">answers / work</text>
+			<path d="M 225,142 L 145,142 Z" style="stroke: rgb(32%,38%,44%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="145 142, 151.3031 138.9552, 151.3031 145.0448" style="stroke: rgb(32%,38%,44%); stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,38%,44%); fill-rule: evenodd;"/>
+			<text x="166.625" y="150.0" style="font-family: Sans; font-size: 8px;fill: rgb(9%,13%,19%); stroke:none;" transform="translate(0,300) scale(1,-1)">feedback</text>
+			<path d="M 505,177 L 435,177 Z" style="stroke: rgb(32%,38%,44%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="435 177, 441.3031 173.9552, 441.3031 180.0448" style="stroke: rgb(32%,38%,44%); stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,38%,44%); fill-rule: evenodd;"/>
+			<text x="437.478515625" y="185.0" style="font-family: Sans; font-size: 8px;fill: rgb(9%,13%,19%); stroke:none;" transform="translate(0,370) scale(1,-1)">content / review</text>
+			<path d="M 435,142 L 505,142 Z" style="stroke: rgb(32%,38%,44%); stroke-linecap: butt; stroke-width: 1.2;"/>
+			<polygon points="505 142, 498.6969 145.0448, 498.6969 138.9552" style="stroke: rgb(32%,38%,44%); stroke-linecap: butt; stroke-width: 1; fill: rgb(32%,38%,44%); fill-rule: evenodd;"/>
+			<text x="445.48828125" y="150.0" style="font-family: Sans; font-size: 8px;fill: rgb(9%,13%,19%); stroke:none;" transform="translate(0,300) scale(1,-1)">submissions</text>
+			<text x="125.7861328125" y="35.0" style="font-family: Sans; font-size: 10px;fill: rgb(9%,13%,19%); stroke:none;" transform="translate(0,70) scale(1,-1)">Browser access over HTTPS; no pupil accounts or mandatory external platform.</text>
+		</g>
+	</g>
+</svg>

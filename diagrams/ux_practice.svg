@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="650" height="440" preserveAspectRatio="xMinYMin meet" viewBox="0 0 650 440" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="650" height="440"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-440)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="650" height="440" style="stroke: rgb(81%,84%,86%); stroke-linecap: butt; stroke-width: 1; fill: rgb(96%,97%,97%); fill-rule: evenodd;"/>
+			<text x="28" y="405.0" style="font-family: SansBold; font-size: 19px;fill: rgb(9%,13%,19%); stroke:none;" transform="translate(0,810) scale(1,-1)">M1  Create a useful learning resource</text>
+			<text x="28" y="374.0" style="font-family: Sans; font-size: 10px;fill: rgb(9%,13%,19%); stroke:none;" transform="translate(0,748) scale(1,-1)">State the lesson objective, describe the resource and explain your choices.</text>
+			<text x="28" y="340.0" style="font-family: SansBold; font-size: 11px;fill: rgb(9%,13%,19%); stroke:none;" transform="translate(0,680) scale(1,-1)">Your response</text>
+			<rect x="25" y="167" width="600" height="155" style="stroke: rgb(81%,84%,86%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="42" y="296.0" style="font-family: Sans; font-size: 11px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,592) scale(1,-1)">Lesson objective...</text>
+			<text x="28" y="141.0" style="font-family: SansBold; font-size: 11px;fill: rgb(9%,13%,19%); stroke:none;" transform="translate(0,282) scale(1,-1)">Resource link (optional)</text>
+			<rect x="25" y="96" width="600" height="32" rx="5" ry="5" style="stroke: rgb(81%,84%,86%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="302.3095703125" y="116.8" style="font-family: Sans; font-size: 10px;fill: rgb(9%,13%,19%); stroke:none;" transform="translate(0,233) scale(1,-1)">https://...</text>
+			<rect x="25" y="37" width="145" height="36" rx="5" ry="5" style="stroke: rgb(81%,84%,86%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="71.62353515625" y="59.8" style="font-family: Sans; font-size: 10px;fill: rgb(9%,13%,19%); stroke:none;" transform="translate(0,119) scale(1,-1)">Save draft</text>
+			<rect x="190" y="37" width="180" height="36" rx="5" ry="5" style="stroke: rgb(81%,84%,86%); stroke-linecap: butt; stroke-width: 1; fill: rgb(92%,95%,95%); fill-rule: evenodd;"/>
+			<text x="235.56396484375" y="59.8" style="font-family: Sans; font-size: 10px;fill: rgb(9%,13%,19%); stroke:none;" transform="translate(0,119) scale(1,-1)">Submit for review</text>
+			<text x="553.544921875" y="47.0" style="font-family: Sans; font-size: 10px;fill: rgb(32%,38%,44%); stroke:none;" transform="translate(0,94) scale(1,-1)">Not submitted</text>
+		</g>
+	</g>
+</svg>

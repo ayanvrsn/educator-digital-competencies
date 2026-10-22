@@ -1,0 +1,201 @@
+﻿Summary,Description,Type,Priority,State,Assignee,Due Date
+Verify original requirements and final justification,"Local planning ID: W01
+Responsible student: Ayan Abilbek
+Expected outcome: Inventory sources and resolve the current topic/scope.
+Acceptance criteria: All 11 requirements transcribed; final Justification distinguished from drafts; missing evidence logged.
+Dependencies (local IDs): None
+Target: 2026-10-22
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: Review. Do not close until acceptance criteria are met.",Task,Critical,Open,,2026-10-22
+Recruit 3-5 school educators,"Local planning ID: W02
+Responsible student: Ayan Abilbek
+Expected outcome: Arrange actual discussions with adult educators.
+Acceptance criteria: 3-5 participants agree to a time; voluntary participation and use of anonymised notes explained.
+Dependencies (local IDs): None
+Target: 2026-10-23
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: Open. Do not close until acceptance criteria are met.",Task,Critical,Open,,2026-10-23
+Conduct and document user discussions,"Local planning ID: W03
+Responsible student: Ayan Abilbek
+Expected outcome: Produce real anonymised notes and a synthesis.
+Acceptance criteria: Each record has date, code, permission and actual responses; contradictory evidence retained; no invented quotes.
+Dependencies (local IDs): W02
+Target: 2026-10-23
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: Blocked. Do not close until acceptance criteria are met.",Task,Critical,Open,,2026-10-23
+Validate scope and project proposal,"Local planning ID: W04
+Responsible student: Ayan Abilbek
+Expected outcome: A realistic proposal tied to evidence and the approved scope.
+Acceptance criteria: Aim, objectives, users, scope and expected outcomes are consistent; remaining assumptions labelled.
+Dependencies (local IDs): W01,W03
+Target: 2026-10-23
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: Review. Do not close until acceptance criteria are met.",Task,High,Open,,2026-10-23
+Prepare critical literature review,"Local planning ID: W05
+Responsible student: Ayan Abilbek
+Expected outcome: A critical review and structured source table.
+Acceptance criteria: At least 12 sources including 8 scientific publications; each is used; references and access limits checked.
+Dependencies (local IDs): W01
+Target: 2026-10-23
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: Review. Do not close until acceptance criteria are met.",Task,High,Open,,2026-10-23
+Compare existing systems,"Local planning ID: W06
+Responsible student: Ayan Abilbek
+Expected outcome: A supported comparison of 3-5 systems.
+Acceptance criteria: 6-10 common criteria; official evidence linked; unknown feature is not labelled absent.
+Dependencies (local IDs): W01
+Target: 2026-10-23
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: Review. Do not close until acceptance criteria are met.",Task,High,Open,,2026-10-23
+Compare key technology alternatives,"Local planning ID: W07
+Responsible student: Ayan Abilbek
+Expected outcome: Three reasoned technology decisions.
+Acceptance criteria: 2-3 alternatives per decision; tradeoffs tied to requirements and individual scope.
+Dependencies (local IDs): W04
+Target: 2026-10-23
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: Review. Do not close until acceptance criteria are met.",Task,High,Open,,2026-10-23
+Validate requirements and acceptance criteria,"Local planning ID: W08
+Responsible student: Ayan Abilbek
+Expected outcome: Numbered functional and non-functional requirements.
+Acceptance criteria: Every Must requirement has verifiable acceptance criteria; user evidence and design assumptions distinguished.
+Dependencies (local IDs): W03,W04
+Target: 2026-10-23
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: Review. Do not close until acceptance criteria are met.",Task,High,Open,,2026-10-23
+Review context and use case diagrams,"Local planning ID: W09
+Responsible student: Ayan Abilbek
+Expected outcome: Editable context and use case diagrams.
+Acceptance criteria: Roles, boundaries and scenarios match the specification; readable exports present.
+Dependencies (local IDs): W08
+Target: 2026-10-23
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: Review. Do not close until acceptance criteria are met.",Task,High,Open,,2026-10-23
+Review component architecture and data model,"Local planning ID: W10
+Responsible student: Ayan Abilbek
+Expected outcome: Component diagram and architecture explanation.
+Acceptance criteria: Ownership, content versioning, service responsibilities and failure handling documented.
+Dependencies (local IDs): W07,W08
+Target: 2026-10-23
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: Review. Do not close until acceptance criteria are met.",Task,High,Open,,2026-10-23
+Build and check UX prototype,"Local planning ID: W11
+Responsible student: Ayan Abilbek
+Expected outcome: Interactive demonstration of key workflows.
+Acceptance criteria: Assessment, module, practice, progress and review screens work; simulated data clearly marked; key error states checked.
+Dependencies (local IDs): W08
+Target: 2026-10-23
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: Review. Do not close until acceptance criteria are met.",Task,High,Open,,2026-10-23
+Prepare verification and evaluation plan,"Local planning ID: W12
+Responsible student: Ayan Abilbek
+Expected outcome: Tests, outcome metrics, conditions and baseline.
+Acceptance criteria: Requirements mapped to tests; pilot sample described as planned; no unmeasured results; rubric and limitations included.
+Dependencies (local IDs): W08
+Target: 2026-10-23
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: Review. Do not close until acceptance criteria are met.",Task,High,Open,,2026-10-23
+Create and organise permanent Git repository,"Local planning ID: W13
+Responsible student: Ayan Abilbek
+Expected outcome: Local and remote repository with project materials.
+Acceptance criteria: README, structure and .gitignore present; remote accessible; own author identity; no credentials or participant data.
+Dependencies (local IDs): W01
+Target: 2026-10-23
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: In Progress. Do not close until acceptance criteria are met.",Task,Critical,Open,,2026-10-23
+Create YouTrack project and task board,"Local planning ID: W14
+Responsible student: Ayan Abilbek
+Expected outcome: Accessible tracker with responsible owner, priorities and deadlines.
+Acceptance criteria: Real issue IDs recorded; workflow and dependencies checked; all meaningful work represented.
+Dependencies (local IDs): W01
+Target: 2026-10-23
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: In Progress. Do not close until acceptance criteria are met.",Task,Critical,Open,,2026-10-23
+Obtain supervisor feedback,"Local planning ID: W15
+Responsible student: Ayan Abilbek
+Expected outcome: Substantive comments on key deliverables.
+Acceptance criteria: Actual source/date recorded; comments address content rather than only eligibility; no generated endorsement.
+Dependencies (local IDs): W04,W05,W08,W10,W12
+Target: 2026-10-24
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: Blocked. Do not close until acceptance criteria are met.",Task,Critical,Open,,2026-10-24
+Resolve and record supervisor comments,"Local planning ID: W16
+Responsible student: Ayan Abilbek
+Expected outcome: Traceable revisions and decisions.
+Acceptance criteria: Every comment has response, changed artefact or reason for deferral; revisions verified.
+Dependencies (local IDs): W15
+Target: 2026-10-24
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: Blocked. Do not close until acceptance criteria are met.",Task,Critical,Open,,2026-10-24
+Grant and verify recipient access,"Local planning ID: W17
+Responsible student: Ayan Abilbek
+Expected outcome: Supervisor and committee can open all linked materials.
+Acceptance criteria: Exact recipient accounts obtained; permissions verified; invitations and acceptance distinguished.
+Dependencies (local IDs): W13,W14
+Target: 2026-10-24
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: Blocked. Do not close until acceptance criteria are met.",Task,Critical,Open,,2026-10-24
+Capture authentic tracker screenshots,"Local planning ID: W18
+Responsible student: Ayan Abilbek
+Expected outcome: Separate readable PDF of board and task cards.
+Acceptance criteria: Real board and task views show owner, status, priority, deadline and acceptance criteria; no mock screenshots.
+Dependencies (local IDs): W14
+Target: 2026-10-24
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: Blocked. Do not close until acceptance criteria are met.",Task,High,Open,,2026-10-24
+Build and verify consolidated report,"Local planning ID: W19
+Responsible student: Ayan Abilbek
+Expected outcome: Single PDF containing all eleven sections.
+Acceptance criteria: Tables/diagrams readable; references valid; gaps visible; current links and supervisor changes incorporated.
+Dependencies (local IDs): W03,W04,W05,W06,W07,W08,W09,W10,W11,W12,W16
+Target: 2026-10-24
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: Review. Do not close until acceptance criteria are met.",Task,Critical,Open,,2026-10-24
+Freeze and tag the first submission,"Local planning ID: W20
+Responsible student: Ayan Abilbek
+Expected outcome: Immutable prob-period-1 and pre-defense-1 tags on the same commit, plus release summary.
+Acceptance criteria: Both tags point to the exact submitted commit; use prob-period-1 in the live form; limitations/open tasks included; no prior tag moved.
+Dependencies (local IDs): W17,W18,W19
+Target: 2026-10-24
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: Blocked. Do not close until acceptance criteria are met.",Task,Critical,Open,,2026-10-24
+Submit form and save receipt,"Local planning ID: W21
+Responsible student: Ayan Abilbek
+Expected outcome: Verified form submission by 18:00 Astana.
+Acceptance criteria: Required fields and both PDFs accepted; links accessible; confirmation/receipt saved. Target 17:30.
+Dependencies (local IDs): W20
+Target: 2026-10-24
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: Blocked. Do not close until acceptance criteria are met.",Task,Critical,Open,,2026-10-24
+Implement accounts and content versions,"Local planning ID: W22
+Responsible student: Ayan Abilbek
+Expected outcome: First implementation increment.
+Acceptance criteria: FR01 and FR09 plus ownership/version tests pass; target set with third-trimester schedule.
+Dependencies (local IDs): W08,W10
+Target: Set with supervisor in third trimester
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: Open. Do not close until acceptance criteria are met.",Task,High,Open,,
+Implement assessment to practice workflow,"Local planning ID: W23
+Responsible student: Ayan Abilbek
+Expected outcome: One complete vertical workflow, then all 3 modules.
+Acceptance criteria: FR02-FR08 run end-to-end with real persistence; boundary and retry tests pass.
+Dependencies (local IDs): W22
+Target: Set with supervisor in third trimester
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: Open. Do not close until acceptance criteria are met.",Task,High,Open,,
+Run pilot and analyse actual evidence,"Local planning ID: W24
+Responsible student: Ayan Abilbek
+Expected outcome: Consent-based formative evaluation.
+Acceptance criteria: Actual sample, exclusions, individual outcomes and limitations reported; no causal overclaim.
+Dependencies (local IDs): W23,W12
+Target: Set with supervisor in third trimester
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: Open. Do not close until acceptance criteria are met.",Task,High,Open,,
+Revise thesis and prepare defence,"Local planning ID: W25
+Responsible student: Ayan Abilbek
+Expected outcome: Final report, demonstration and explainable design choices.
+Acceptance criteria: Final calendar agreed; source/results reproducible; student can explain individual contributions.
+Dependencies (local IDs): W24
+Target: Set with supervisor in third trimester
+Evidence: link the actual deliverable/commit/PR here when available.
+Current preparation status: Open. Do not close until acceptance criteria are met.",Task,Normal,Open,,

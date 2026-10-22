@@ -1,0 +1,21 @@
+﻿ID,Priority,Title,Acceptance Criteria
+FR01,Must,Account access and roles,A registered teacher can sign in/out. Unauthenticated requests receive 401 and a teacher cannot call administrator operations (403). Passwords are never stored in plaintext.
+FR02,Must,Initial assessment,"A teacher completes 9 original scenario questions, 3 per module, plus separate confidence prompts. Missing mandatory answers prevent submission and receive a field-level error."
+FR03,Must,Scores and history,"The server stores answers, score, timestamp and content/rule versions. Confidence is displayed separately. A repeated request with the same idempotency key creates one attempt."
+FR04,Must,Explainable recommendation,"The lowest-scoring incomplete module is recommended; a tied score uses M1, M2, M3 order. The page names the topic and score behind the choice. With no assessment, show the catalogue without a personalised claim."
+FR05,Must,Three learning modules,"Each published module contains an objective, competence reference, lesson, example, practice brief and completion rules. Unpublished versions are not visible to teachers."
+FR06,Must,Practical submission,"A teacher saves a text response and an optional HTTPS resource link, then submits. Empty text is rejected; an invalid link does not silently disappear. Drafts remain editable."
+FR07,Must,Rubric feedback,"An administrator reviews a submitted task using four 0-2 criteria, gives a comment and chooses accepted or revision needed. A teacher can see only their own feedback."
+FR08,Must,Progress,"The dashboard distinguishes not started, in progress, awaiting review, revision needed and completed. A module completes only after the required lesson steps and an accepted practice submission."
+FR09,Must,Content administration,An administrator creates/edits drafts and publishes a new version. Existing attempts retain their original question and rubric version; publish does not rewrite history.
+FR10,Must,Data control,A teacher can obtain their own assessment/submission history and request account deletion. The administrator removes associated personal records under the agreed retention process; deletion is logged without retaining the content.
+FR11,Should,Resume and recover,"A saved draft can be reopened after sign-out. A failed save shows an error, preserves visible text and offers retry without showing a false success."
+FR12,Should,Pilot export,"An authorised administrator exports pseudonymised, consented pilot records with task/form version, scores, condition and timestamps. Non-consenting accounts are excluded."
+NFR01,Must,Access control,Integration tests using two teachers and an admin show zero successful cross-user reads/writes. Authorisation is checked on the server for every protected resource.
+NFR02,Must,Accessibility,Core flows work by keyboard; labels and visible focus exist; errors are associated with fields. Test selected WCAG 2.2 A/AA criteria [R12]; record failures rather than claiming full conformance.
+NFR03,Must,Responsive layout,"Core screens at 360, 768 and 1280 CSS pixels have readable controls and no horizontal page scrolling; test keyboard and zoom behaviour."
+NFR04,Should,Performance target,"On the recorded staging hardware, seed 100 teacher accounts and run 20 concurrent sessions for 5 minutes. Target p95 API response under 1 second and under 1% unexpected failures. Report actual results and exclusions."
+NFR05,Must,Data integrity,A failed transaction does not produce a completed attempt or duplicated progress. Concurrent/retried submission tests preserve one record per idempotency key.
+NFR06,Must,Reproducibility,"A fresh checkout can be configured with example variables, migrated, seeded with synthetic data and tested using the documented commands; no private data or credentials in Git."
+NFR07,Must,Privacy,Collect only account and learning data needed for the workflow. Do not collect pupil records; keep contact keys separate from research exports. Agree retention before pilot consent.
+NFR08,Should,Recovery,Restore a staging backup into an isolated database and verify seeded counts and relationships. Target restoration within 60 minutes; record actual elapsed time.
