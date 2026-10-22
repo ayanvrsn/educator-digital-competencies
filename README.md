@@ -1,0 +1,48 @@
+# Development of Web Application for Enhancing Digital Competencies of School Educators
+
+Individual diploma project by **Ayan Abilbek**, SE-2401, Software Engineering, Astana IT University. Supervisor: **Aliya Katyetova**.
+
+The application is intended to help school educators move from an initial assessment to short learning modules, practical work and visible progress. The three initial topics are digital resource creation, online assessment and responsible resource management. The expected outcome is an implemented and evaluated prototype; improved learning has not yet been demonstrated.
+
+## Current status
+
+22 October 2026: analysis/design review draft and a local HTML prototype. No production application, teacher interviews, learning outcomes or substantive supervisor review are claimed. The signed/forwarded Justification is preserved privately outside this repository. Its final scope is the basis for the proposal.
+
+All implementation and documentation responsibilities belong to Ayan. The supervisor reviews scope, competence mapping and evaluation. Committee access is a project-review permission and does not authorise access to participant records.
+
+## Scope and technology
+
+Teacher/admin accounts, an initial assessment, three modules, practical submissions, rule-based recommendations and progress. Proposed implementation stack: Next.js, React, TypeScript, PostgreSQL. No AI tutor, school-record integration or formal competence certification is in scope. The present prototype uses plain HTML/CSS/JavaScript solely to make the design reviewable.
+
+## Materials
+
+- [Consolidated report](docs/First_Submission_Report.pdf)
+- [Editable report](docs/report.html)
+- [Architecture diagrams and editable SVG sources](diagrams/)
+- [Interactive UX prototype](prototype/index.html)
+- [Requirements](docs/requirements.csv) and [test plan](docs/test-plan.csv)
+- [Work breakdown](project-management/tasks.csv) and [YouTrack import preparation](project-management/youtrack-import.csv)
+
+Repository: https://github.com/ayanvrsn/educator-digital-competencies (private).
+
+Tracker: https://ayan-educator-diploma.youtrack.cloud/projects/EDU. Both were created on 22 October 2026. Recipient access is pending account details. Local W01-W25 identifiers map to actual YouTrack issues in project-management/issue-map.csv after task creation.
+
+## Open the prototype
+
+Open `prototype/index.html` in a browser, or run from this directory:
+
+```sh
+python3 -m http.server 8765 --bind 127.0.0.1
+```
+
+Then open `http://127.0.0.1:8765/prototype/`. State exists only in memory and is cleared on reload. Enter synthetic examples only. The administrator switch is a design demonstration, not authentication. Production setup/test commands will be added when the application is implemented; no non-existent npm commands are advertised.
+
+## Review workflow
+
+Use one permanent repository. Develop in task branches and use pull requests. Put the real tracker ID in the branch, commit and PR description; link the PR back to its task. Keep main as the reviewed baseline and request selected significant reviews from the supervisor at agreed checkpoints. Record work honestly from the actual start date. Do not backdate commits or fabricate review activity.
+
+Create the immutable `pre-defense-1` tag only after the actual submission revision, access and required evidence are final. The current review draft is not a tagged submission. See `project-management/submission-checklist.txt`.
+
+## Privacy
+
+Never commit secrets, signed personal eligibility documents, identifiable interviews or pupil records. Example configuration contains placeholders only. Store consent and participant contact keys separately from anonymised analysis.
