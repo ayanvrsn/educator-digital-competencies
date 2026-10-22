@@ -190,7 +190,7 @@
     "Local ID": "W18",
     "Summary": "Capture authentic tracker screenshots",
     "Priority": "High",
-    "State": "Blocked",
+    "State": "Review",
     "Due Date": "2026-10-24",
     "Dependencies": "W14",
     "Expected Outcome": "Separate readable PDF of board and task cards.",

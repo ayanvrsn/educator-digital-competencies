@@ -3,16 +3,23 @@ FIRST SUBMISSION CHECKLIST — 24 OCTOBER 2026, 18:00 ASTANA
 [ ] 3-5 actual discussions or substantive client agreement included
 [ ] Requirements updated against actual findings
 [ ] Supervisor comments received and decisions recorded
-[ ] Repository remote exists and README links are current
-[ ] YouTrack project has real assigned/prioritised issues and deadlines
-[ ] Task -> commit/PR -> deliverable trace verified
+[x] Repository remote exists and README links are current
+[x] YouTrack project has real assigned/prioritised issues and deadlines
+[x] Task -> commit/PR -> deliverable trace verified
 [ ] Supervisor and committee recipient accounts obtained
 [ ] Access checked for every linked resource
-[ ] Authentic board/task screenshots assembled into a separate PDF
-[ ] Consolidated report finalised and visually checked
+[x] Authentic board/task screenshots assembled into a separate PDF
+[x] Current review-draft report rendered and visually checked
+[ ] Report updated with actual discussions and supervisor feedback, then checked again
 [ ] Exact submission commit recorded; prob-period-1 and pre-defense-1 tags point to it
-[ ] Form fields checked after university Microsoft login
+[x] University login and form pages 1-2 checked; contribution links entered
+[ ] Form pages 3-5 and file limits checked after final version exists
 [ ] Form submitted before 18:00; target 17:30
 [ ] Confirmation retained; no unverified success claimed
 
 Do not move a previously submitted tag. A late-created repository cannot demonstrate earlier development history.
+
+Draft PR: https://github.com/ayanvrsn/educator-digital-competencies/pull/1
+Evidence commit: https://github.com/ayanvrsn/educator-digital-competencies/commit/83862c3ba8ce1d7313d43027566b869067884615
+Task-to-artifact mapping: project-management/artifact-trace.csv
+EDU-18 moved to Review after compilation of the current screenshots PDF. Captures record the earlier preparation state on the same day; refresh before final submission.

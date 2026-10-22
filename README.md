@@ -28,6 +28,8 @@ Repository: https://github.com/ayanvrsn/educator-digital-competencies (private).
 
 Tracker: https://ayan-educator-diploma.youtrack.cloud/projects/EDU. Both were created on 22 October 2026. Recipient access is pending account details. The mapping from local W01-W25 planning references to actual YouTrack issues is in project-management/issue-map.csv.
 
+Review package: [draft PR #1](https://github.com/ayanvrsn/educator-digital-competencies/pull/1). All report, diagram, prototype and tracker files are in `EDU-13/first-submission-preparation`; `main` currently contains the initial scaffold. Human review is pending.
+
 ## Open the prototype
 
 Open `prototype/index.html` in a browser, or run from this directory:
