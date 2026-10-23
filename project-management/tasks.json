@@ -377,7 +377,7 @@
     "Local ID": "W23",
     "Summary": "Implement diagnostic questions, scoring and attempt history",
     "Priority": "High",
-    "State": "Open",
+    "State": "In Progress",
     "Due Date": "",
     "Dependencies": "W22,W28",
     "Expected Outcome": "Nine scenario questions and separate confidence responses produce a persisted diagnostic attempt.",
@@ -388,7 +388,7 @@
     "Schedule": "Unscheduled: university dates have not been provided (confirmed by student on 23 October 2026).",
     "YouTrack ID": "EDU-23",
     "URL": "https://ayan-educator-diploma.youtrack.cloud/issue/EDU-23/W23-Implement-diagnostic-questions-scoring-and-attempt-history",
-    "Stage": "Backlog"
+    "Stage": "Develop"
   },
   {
     "Local ID": "W24",
@@ -479,7 +479,7 @@
     "Local ID": "W29",
     "Summary": "Recommend a starting module from diagnostic results",
     "Priority": "High",
-    "State": "Open",
+    "State": "In Progress",
     "Due Date": "",
     "Dependencies": "W23",
     "Expected Outcome": "A teacher sees a recommended module with an understandable reason.",
@@ -490,7 +490,7 @@
     "Schedule": "Unscheduled: university dates have not been provided (confirmed by student on 23 October 2026).",
     "YouTrack ID": "EDU-29",
     "URL": "https://ayan-educator-diploma.youtrack.cloud/issue/EDU-29/W29-Recommend-a-starting-module-from-diagnostic-results",
-    "Stage": "Backlog"
+    "Stage": "Develop"
   },
   {
     "Local ID": "W30",

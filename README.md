@@ -6,7 +6,7 @@ The application is intended to help school educators move from an initial assess
 
 ## Current status
 
-23 October 2026: analysis/design review draft and a local HTML prototype. No production application, teacher interviews, learning outcomes or substantive supervisor review are claimed. The signed/forwarded Justification is preserved privately outside this repository. Its final scope is the basis for the proposal.
+23 October 2026: the first-submission report, diagrams and local HTML prototype are prepared. TypeScript functions now validate and score the diagnostic (EDU-23) and select an explainable starting module (EDU-29). These functions are tested independently; the prototype is not yet connected to them. API handlers, authentication and PostgreSQL persistence remain to be built. Teacher interviews, learning outcomes and substantive supervisor review are still outstanding. The signed/forwarded Justification is preserved privately outside this repository.
 
 All implementation and documentation responsibilities belong to Ayan. The supervisor reviews scope, competence mapping and evaluation. Committee access is a project-review permission and does not authorise access to participant records.
 
@@ -28,7 +28,18 @@ Repository: https://github.com/ayanvrsn/educator-digital-competencies (private).
 
 Tracker: https://ayan-educator-diploma.youtrack.cloud/projects/EDU. Both were created on 22 October 2026. Recipient access is pending account details. The mapping from local W01-W40 planning references to actual YouTrack issues is in project-management/issue-map.csv.
 
-Review package: [draft PR #1](https://github.com/ayanvrsn/educator-digital-competencies/pull/1). All report, diagram, prototype and tracker files are in `EDU-13/first-submission-preparation`; `main` currently contains the initial scaffold. Human review is pending.
+Repository baseline: `main` contains the report, diagrams, prototype, tracker evidence and the first domain functions. [PR #1](https://github.com/ayanvrsn/educator-digital-competencies/pull/1) records the initial integration. This code integration does not constitute supervisor approval or final diploma submission.
+
+## Run the code checks
+
+Use Node.js 24.19.0 (also recorded in `.nvmrc`), then run from the repository root:
+
+```sh
+npm ci
+npm run check
+```
+
+This runs the TypeScript compiler and 28 domain tests, including all 512 combinations of valid topic scores and completion states for the recommendation rule. GitHub Actions runs the same checks on pushes and pull requests. No database or credentials are needed for these tests. See [implementation details](src/README.md) and [verification scope](tests/README.md).
 
 ## Open the prototype
 
@@ -38,7 +49,7 @@ Open `prototype/index.html` in a browser, or run from this directory:
 python3 -m http.server 8765 --bind 127.0.0.1
 ```
 
-Then open `http://127.0.0.1:8765/prototype/`. State exists only in memory and is cleared on reload. Enter synthetic examples only. The administrator switch is a design demonstration, not authentication. Production setup/test commands will be added when the application is implemented; no non-existent npm commands are advertised.
+Then open `http://127.0.0.1:8765/prototype/`. State exists only in memory and is cleared on reload. Enter synthetic examples only. The administrator switch is a design demonstration, not authentication. This preview runs separately from the TypeScript domain functions.
 
 ## Review workflow
 
@@ -52,4 +63,4 @@ Never commit secrets, signed personal eligibility documents, identifiable interv
 
 The backlog now contains 40 actual issues: 30 tagged Diploma (research, design, application development, tests and evaluation) and 10 tagged Submission. The main board filters Diploma. The 19 later tasks have no due dates because the university has not yet announced the pre-defence/defence calendar. See project-management/backlog-guide.txt.
 
-The consolidated report is formatted using GOST 7.32-2017 presentation rules: Times New Roman, 14 pt, 1.5 line spacing, prescribed margins, numbered tables/figures/citations and a linked contents list. The 63-page PDF includes the 11 required sections and appendices with authentic tracker screenshots, observed prototype checks and all 40 work items. See tools/README.md for rebuilding. Formatting does not close the missing primary-evidence or supervisor-feedback requirements.
+The consolidated report is formatted using GOST 7.32-2017 presentation rules: Times New Roman, 14 pt, 1.5 line spacing, prescribed margins, numbered tables/figures/citations and a linked contents list. The 63-page PDF includes the 11 required sections and appendices with authentic tracker screenshots, observed prototype checks and all 40 work items. It is the analysis/design snapshot prepared before the domain-code commits; current implementation progress is recorded in YouTrack and [the development record](project-management/development-record.md). See tools/README.md for rebuilding. Formatting does not close the missing primary-evidence or supervisor-feedback requirements.

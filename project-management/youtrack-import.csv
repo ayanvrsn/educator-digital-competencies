@@ -481,7 +481,9 @@ Requirements: FR02-FR03,NFR05
 
 Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-23/W23-Implement-diagnostic-questions-scoring-and-attempt-history
 
-Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Backlog,admin,,Diploma
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.
+
+Current evidence: project-management/development-record.md and GitHub PR #1.",Task,High,Develop,admin,,Diploma
 W24 — Run pilot and analyse actual evidence,"Local planning ID: W24
 
 Responsible student: Ayan Abilbek (admin account)
@@ -607,7 +609,9 @@ Requirements: FR04
 
 Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-29/W29-Recommend-a-starting-module-from-diagnostic-results
 
-Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Backlog,admin,,Diploma
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.
+
+Current evidence: project-management/development-record.md and GitHub PR #1.",Task,High,Develop,admin,,Diploma
 W30 — Save and submit practical work for review,"Local planning ID: W30
 
 Responsible student: Ayan Abilbek (admin account)
