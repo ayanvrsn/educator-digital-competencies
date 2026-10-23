@@ -1,11 +1,11 @@
 {
-  "pages": 59,
+  "pages": 63,
   "a4_pages": 55,
-  "a3_appendix_pages": 4,
+  "a3_appendix_pages": 8,
   "main_tables": 22,
   "appendix_tables": 1,
   "main_figures": 5,
-  "appendix_figures": 4,
+  "appendix_figures": 8,
   "references": 27,
   "reference_map": {
     "R1": 1,
@@ -87,8 +87,8 @@
     "conclusion": 44,
     "references": 45,
     "appendix-a": 49,
-    "appendix-b": 54,
-    "appendix-c": 56
+    "appendix-b": 58,
+    "appendix-c": 60
   },
   "table_index": [
     {

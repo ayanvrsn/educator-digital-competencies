@@ -1,4 +1,6 @@
-Current PDF uses four authentic browser captures from 23 October 2026: diploma-board-23oct.png, submission-list-23oct.png, EDU-31-23oct.png and EDU-30-23oct.png.
-The earlier JPG files are retained as dated historical evidence from 22 October; they are not the current board.
-Main board: 30 Diploma tasks (21 backlog, 9 review); saved search: 10 Submission tasks.
-Nineteen later tasks have no due date because university dates are unavailable. No application implementation, interviews or supervisor approval are implied.
+The current report and separate tracker PDF use eight screenshots selected in selected-evidence.json.
+Five original images were supplied by the student on 23 October 2026; their original filenames and SHA-256 checksums are recorded in user-supplied-provenance.json. They are reproduced without pixel edits or cropping.
+The new student-supplied board image replaces the earlier board capture in the PDFs. The earlier source images remain as historical evidence.
+The three other selected images are browser captures from 23 October: the separate Submission view, EDU-31 and EDU-30.
+Main board: 30 Diploma cards (21 backlog, 9 review); separate Submission view: 10 tasks. The Starred widget displays 40 issues, not 40 completed tasks.
+Nineteen later tasks have no due date because university dates are unavailable. The captures do not establish implementation, interviews or supervisor approval.

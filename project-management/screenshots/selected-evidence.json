@@ -1,0 +1,66 @@
+[
+  {
+    "file": "user-board-23oct-133918.png",
+    "title": "The Diploma board: research, implementation and evaluation",
+    "template": "shotwide",
+    "url": "https://ayan-educator-diploma.youtrack.cloud/agiles/204-1/218-1",
+    "note": "30 Diploma cards: 21 backlog and 9 review. Review is a workflow state; it does not establish approval.",
+    "source": "Student-supplied screenshot, 23 October 2026."
+  },
+  {
+    "file": "submission-list-23oct.png",
+    "title": "The separate Submission task view",
+    "template": "shotwide",
+    "url": "https://ayan-educator-diploma.youtrack.cloud/issues?q=project%3A%20EDU%20tag%3A%20Submission",
+    "note": "10 Submission tasks cover preparation, review, access and hand-in.",
+    "source": "Browser capture, 23 October 2026."
+  },
+  {
+    "file": "EDU-31-23oct.png",
+    "title": "EDU-31: rubric-based review and feedback implementation",
+    "template": "shottall",
+    "url": "https://ayan-educator-diploma.youtrack.cloud/issue/EDU-31",
+    "note": "Planned implementation: rubric-based review and educator feedback.",
+    "source": "Browser capture, 23 October 2026."
+  },
+  {
+    "file": "EDU-30-23oct.png",
+    "title": "EDU-30: save and submit practical work",
+    "template": "shottall",
+    "url": "https://ayan-educator-diploma.youtrack.cloud/issue/EDU-30",
+    "note": "Acceptance criteria cover draft persistence, validation, retry handling and resubmission.",
+    "source": "Browser capture, 23 October 2026."
+  },
+  {
+    "file": "user-project-23oct-134003.png",
+    "title": "Project overview, scope and ownership",
+    "template": "shotwide",
+    "url": "https://ayan-educator-diploma.youtrack.cloud/projects/EDU",
+    "note": "The project page records the scope, student, supervisor, repository and current analysis/design stage.",
+    "source": "Student-supplied screenshot, 23 October 2026."
+  },
+  {
+    "file": "user-EDU-4-23oct-133931.png",
+    "title": "EDU-4: project proposal review and dependencies",
+    "template": "shotwide",
+    "url": "https://ayan-educator-diploma.youtrack.cloud/issue/EDU-4",
+    "note": "The card shows the owner, priority, review state, target date and proposal acceptance criteria.",
+    "source": "Student-supplied screenshot, 23 October 2026."
+  },
+  {
+    "file": "user-EDU-22-23oct-133935.png",
+    "title": "EDU-22: teacher and administrator authentication",
+    "template": "shotwide",
+    "url": "https://ayan-educator-diploma.youtrack.cloud/issue/EDU-22",
+    "note": "Planned authentication work with acceptance criteria and dependencies; no due date is assigned.",
+    "source": "Student-supplied screenshot, 23 October 2026."
+  },
+  {
+    "file": "user-starred-23oct-133946.png",
+    "title": "Starred issues widget: 40 issues",
+    "template": "shotwide",
+    "url": "https://ayan-educator-diploma.youtrack.cloud/projects/EDU",
+    "note": "The widget displays 40 starred issues; it is not a completion or acceptance count.",
+    "source": "Student-supplied screenshot, 23 October 2026."
+  }
+]
