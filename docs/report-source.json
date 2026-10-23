@@ -1489,7 +1489,7 @@
         },
         {
           "type": "p",
-          "text": "Issues were created directly in the YouTrack interface. The supplied CSV is a backup for portability, not evidence of a CSV import. If a future import is needed, the documented CSV workflow uses a Google spreadsheet intermediary [G2]. The accompanying YouTrack_Task_Screenshots.pdf contains authentic captures from 23 October 2026: the 30-task Diploma board, the separate 10-task Submission view, implementation issue EDU-31 and discussion issue EDU-3. The cards show ownership, priority, acceptance criteria and either a preparation target or an explicitly unset future date. These captures record preparation status, not supervisor approval or completed interviews; refresh them before final submission."
+          "text": "Issues were created directly in the YouTrack interface. The supplied CSV is a backup for portability, not evidence of a CSV import. If a future import is needed, the documented CSV workflow uses a Google spreadsheet intermediary [G2]. The accompanying YouTrack_Task_Screenshots.pdf contains authentic captures from 23 October 2026: the 30-task Diploma board, the separate 10-task Submission view, implementation issues EDU-31 and EDU-30. The cards show ownership, priority, acceptance criteria and either a preparation target or an explicitly unset future date. These captures record preparation status, not supervisor approval or completed interviews; refresh them before final submission."
         }
       ]
     },
