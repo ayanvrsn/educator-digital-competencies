@@ -1,0 +1,194 @@
+{
+  "pages": 59,
+  "a4_pages": 55,
+  "a3_appendix_pages": 4,
+  "main_tables": 22,
+  "appendix_tables": 1,
+  "main_figures": 5,
+  "appendix_figures": 4,
+  "references": 27,
+  "reference_map": {
+    "R1": 1,
+    "R6": 2,
+    "R5": 3,
+    "R8": 4,
+    "R2": 5,
+    "R3": 6,
+    "R7": 7,
+    "R4": 8,
+    "R9": 9,
+    "R10": 10,
+    "R11": 11,
+    "R12": 12,
+    "S1": 13,
+    "S2": 14,
+    "S3": 15,
+    "S4": 16,
+    "S5": 17,
+    "T1": 18,
+    "T2": 19,
+    "T3": 20,
+    "T4": 21,
+    "T5": 22,
+    "T6": 23,
+    "T7": 24,
+    "T8": 25,
+    "G2": 26,
+    "G1": 27
+  },
+  "sections": {
+    "abstract": 2,
+    "abbreviations": 5,
+    "s0": 6,
+    "s0-h1": 7,
+    "s1": 8,
+    "s1-h1": 8,
+    "s1-h2": 8,
+    "s1-h3": 8,
+    "s1-h4": 9,
+    "s1-h5": 10,
+    "s2": 11,
+    "s2-h1": 11,
+    "s2-h2": 12,
+    "s3": 14,
+    "s3-h1": 14,
+    "s3-h2": 14,
+    "s3-h3": 15,
+    "s3-h4": 15,
+    "s3-h5": 16,
+    "s3-h6": 16,
+    "s3-h7": 17,
+    "s4": 18,
+    "s5": 20,
+    "s5-h1": 20,
+    "s5-h2": 20,
+    "s5-h3": 21,
+    "s5-h4": 22,
+    "s6": 23,
+    "s6-h1": 24,
+    "s6-h2": 25,
+    "s6-h3": 26,
+    "s7": 27,
+    "s7-h1": 29,
+    "s7-h2": 30,
+    "s7-h3": 31,
+    "s8": 32,
+    "s8-h1": 34,
+    "s9": 35,
+    "s9-h1": 35,
+    "s9-h2": 36,
+    "s9-h3": 37,
+    "s9-h4": 38,
+    "s10": 39,
+    "s10-h1": 40,
+    "s10-h2": 40,
+    "s10-h3": 42,
+    "s11": 43,
+    "conclusion": 44,
+    "references": 45,
+    "appendix-a": 49,
+    "appendix-b": 54,
+    "appendix-c": 56
+  },
+  "table_index": [
+    {
+      "number": 1,
+      "title": "Coverage of the eleven required components"
+    },
+    {
+      "number": 2,
+      "title": "Project objectives and deliverables"
+    },
+    {
+      "number": 3,
+      "title": "Learning modules and competence mapping"
+    },
+    {
+      "number": 4,
+      "title": "Evidence and unresolved assumptions"
+    },
+    {
+      "number": 5,
+      "title": "Protocol for discussions with educators"
+    },
+    {
+      "number": 6,
+      "title": "Assumptions and validation actions"
+    },
+    {
+      "number": 7,
+      "title": "Critical analysis of the core literature"
+    },
+    {
+      "number": 8,
+      "title": "Comparison of existing systems"
+    },
+    {
+      "number": 9,
+      "title": "Server platform alternatives"
+    },
+    {
+      "number": 10,
+      "title": "Data storage alternatives"
+    },
+    {
+      "number": 11,
+      "title": "Component interaction alternatives"
+    },
+    {
+      "number": 12,
+      "title": "Functional requirements and acceptance criteria"
+    },
+    {
+      "number": 13,
+      "title": "Non-functional requirements and acceptance criteria"
+    },
+    {
+      "number": 14,
+      "title": "Component responsibilities and requirement traceability"
+    },
+    {
+      "number": 15,
+      "title": "Initial data model"
+    },
+    {
+      "number": 16,
+      "title": "Key user screens and states"
+    },
+    {
+      "number": 17,
+      "title": "Verification scenarios"
+    },
+    {
+      "number": 18,
+      "title": "Evaluation measures and interpretation"
+    },
+    {
+      "number": 19,
+      "title": "Practical task scoring rubric"
+    },
+    {
+      "number": 20,
+      "title": "Milestones and exit conditions"
+    },
+    {
+      "number": 21,
+      "title": "Project risks and responses"
+    },
+    {
+      "number": 22,
+      "title": "Supervisor review agenda"
+    }
+  ],
+  "font": "Times New Roman",
+  "body_font_pt": 14,
+  "body_leading_pt": 21,
+  "margins_mm": {
+    "left": 30,
+    "right": 15,
+    "top": 20,
+    "bottom": 20
+  },
+  "first_line_indent_mm": 12.5,
+  "date": "2026-10-23"
+}

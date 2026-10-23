@@ -17,7 +17,7 @@ Teacher/admin accounts, an initial assessment, three modules, practical submissi
 ## Materials
 
 - [Consolidated report](docs/First_Submission_Report.pdf)
-- [Editable report](docs/report.html)
+- [Report in HTML](docs/report-gost.html)
 - [Architecture diagrams and editable SVG sources](diagrams/)
 - [Interactive UX prototype](prototype/index.html)
 - [Requirements](docs/requirements.csv) and [test plan](docs/test-plan.csv)
@@ -51,3 +51,5 @@ The live form requires `prob-period-1`; the DOCX says `pre-defense-1`. Create bo
 Never commit secrets, signed personal eligibility documents, identifiable interviews or pupil records. Example configuration contains placeholders only. Store consent and participant contact keys separately from anonymised analysis.
 
 The backlog now contains 40 actual issues: 30 tagged Diploma (research, design, application development, tests and evaluation) and 10 tagged Submission. The main board filters Diploma. The 19 later tasks have no due dates because the university has not yet announced the pre-defence/defence calendar. See project-management/backlog-guide.txt.
+
+The consolidated report is formatted using GOST 7.32-2017 presentation rules: Times New Roman, 14 pt, 1.5 line spacing, prescribed margins, numbered tables/figures/citations and a linked contents list. The 59-page PDF includes the 11 required sections and appendices with authentic tracker screenshots, observed prototype checks and all 40 work items. See tools/README.md for rebuilding. Formatting does not close the missing primary-evidence or supervisor-feedback requirements.

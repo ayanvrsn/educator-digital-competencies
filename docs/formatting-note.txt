@@ -1,0 +1,11 @@
+REPORT PRESENTATION — REVISED 23 OCTOBER 2026
+
+Basis: GOST 7.32-2017, especially clauses 6.1-6.6, 6.9, 6.12-6.17.
+Official Kazakhstan government-hosted copy checked on 23 October 2026:
+https://beta.egov.kz/uploads/2020/9/30/4d72d0c315d7166caa10353141c95111_original.311020.pdf
+
+Applied: Times New Roman 14 pt, 21 pt line spacing; black text; A4 body pages; 30 mm left, 15 mm right, 20 mm top/bottom margins; 12.5 mm paragraph indent; separate pages for structural elements and main sections; continuous bottom-centred page numbers with the title counted but unnumbered. Tables use 12 pt text, numbered titles above and continuation labels. Figure captions appear below. Citations use one numeric sequence in order of first mention, linked to 27 bibliography entries. Descriptions use author/title/publication/year/volume/pages or article number and URL/access date, following the bibliographic conventions referenced by GOST 7.32.
+
+Four A3 sheets reproduce the authentic tracker screenshots in Appendix A. Appendix B records only the synthetic prototype checks actually performed. Appendix C lists 40 real tasks. All 11 substantive components are present; absent user evidence and supervisor feedback remain explicit.
+
+Scope: this is an interim student project report. No signed institutional approval, UDC or registered R&D identifier has been invented. The supplied requirements document gives the assessment criteria but no institution-specific title-page or typography template. Any separately issued mandatory AITU template must be checked before final submission.
