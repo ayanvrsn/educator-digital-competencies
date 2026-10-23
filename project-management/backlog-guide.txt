@@ -1,0 +1,13 @@
+BACKLOG REVISED 23 OCTOBER 2026
+
+40 actual YouTrack tasks: 30 Diploma, 10 Submission.
+Main board: https://ayan-educator-diploma.youtrack.cloud/agiles/204-1/218-1
+Submission view: https://ayan-educator-diploma.youtrack.cloud/issues?q=project%3A%20EDU%20tag%3A%20Submission
+
+Use actual EDU IDs in branches and commits. W IDs are stable local references, not guaranteed to match EDU numbers. Dependencies are issue mentions, not native blocking links.
+
+The 19 implementation/evaluation/final-thesis tasks have no due date: the university has not provided the next pre-defence or final-defence dates. Set a calendar with the supervisor once dates are known. This remains an open part of the requirement that tasks have deadlines.
+
+Work order: validate needs and design; build schema/authentication/content; implement diagnostic, learning and review; run security/accessibility/recovery checks; freeze baseline and protocol; conduct the real pilot; revise the thesis.
+
+State in tasks.csv is the planning status (including Blocked); Stage is the actual board column. A Review column is not supervisor approval. New tasks are Backlog. CSV files are portability copies, not proof of an import.

@@ -85,6 +85,7 @@ def make_diagrams():
 
 styles=getSampleStyleSheet()
 styles.add(ParagraphStyle(name='B',fontName='Body',fontSize=10.3,leading=15,spaceAfter=8,textColor=INK))
+styles.add(ParagraphStyle(name='Ref',parent=styles['B'],leading=14,spaceAfter=6))
 styles.add(ParagraphStyle(name='H1x',fontName='SansBold',fontSize=18,leading=23,spaceAfter=14,textColor=INK,keepWithNext=True))
 styles.add(ParagraphStyle(name='TitleNoTOC',parent=styles['H1x']))
 styles.add(ParagraphStyle(name='H2x',fontName='SansBold',fontSize=12,leading=17,spaceBefore=13,spaceAfter=7,textColor=INK,keepWithNext=True))
@@ -97,7 +98,7 @@ styles.add(ParagraphStyle(name='Toc1',fontName='Sans',fontSize=10.5,leading=18,l
 def esc(t):return html.escape(t).replace('\n','<br/>')
 def footer(c,doc):
     c.saveState();w,h=A4;c.setFont('Sans',8);c.setFillColor(MUTED)
-    if doc.page>1:c.drawString(48,28,'Ayan Abilbek | First submission review draft | 22 October 2026')
+    if doc.page>1:c.drawString(48,28,'Ayan Abilbek | First submission review draft | 23 October 2026')
     c.drawRightString(w-48,28,str(doc.page));c.restoreState()
 class Doc(SimpleDocTemplate):
     def afterFlowable(self,flow):
@@ -107,9 +108,9 @@ class Doc(SimpleDocTemplate):
 CSS='''body{max-width:980px;margin:40px auto;padding:0 30px;color:#182532;font:17px/1.65 Georgia,serif}h1,h2,h3{font-family:Arial,sans-serif;line-height:1.25}h1{font-size:32px}h2{font-size:27px;border-top:1px solid #ccd5dc;padding-top:25px;margin-top:45px}h3{font-size:20px}table{width:100%;border-collapse:collapse;font:14px/1.5 Arial,sans-serif;margin:20px 0}th{background:#275c69;color:white;text-align:left}th,td{padding:10px;vertical-align:top;border:1px solid #d4dce1}tr:nth-child(even){background:#f3f6f7}img{width:100%;max-height:700px;object-fit:contain}figcaption{font:14px/1.5 Arial,sans-serif;color:#526270}a{color:#245f74;overflow-wrap:anywhere}.notice{padding:18px;background:#fff2d9;border-left:4px solid #b0822d}nav{font-family:Arial,sans-serif}section{break-before:page}@media print{body{max-width:none;margin:0;font-size:11pt}nav{display:none}h2{border:0}thead{display:table-header-group}tr,figure{break-inside:avoid}}'''
 def main():
     figs=make_diagrams();story=[]
-    story.extend([Spacer(1,50),Paragraph('ASTANA IT UNIVERSITY',styles['H2x']),Paragraph('School of Software Engineering',styles['B']),Spacer(1,35),Paragraph(TITLE,styles['Cover']),Paragraph('First submission report',styles['TitleNoTOC']),Paragraph('Ayan Abilbek | SE-2401<br/>Supervisor: Aliya Katyetova<br/>Individual diploma project',styles['B']),Spacer(1,25),Paragraph('22 October 2026<br/>Submission deadline: 24 October 2026, 18:00 Astana time',styles['B']),Spacer(1,25),Paragraph('Review draft. Primary user evidence, substantive supervisor feedback and remote submission checks are still outstanding. Proposed design and evaluation plans are not reported as implemented or measured results.',styles['B']),PageBreak()])
+    story.extend([Spacer(1,50),Paragraph('ASTANA IT UNIVERSITY',styles['H2x']),Paragraph('School of Software Engineering',styles['B']),Spacer(1,35),Paragraph(TITLE,styles['Cover']),Paragraph('First submission report',styles['TitleNoTOC']),Paragraph('Ayan Abilbek | SE-2401<br/>Supervisor: Aliya Katyetova<br/>Individual diploma project',styles['B']),Spacer(1,25),Paragraph('23 October 2026<br/>Submission deadline: 24 October 2026, 18:00 Astana time',styles['B']),Spacer(1,25),Paragraph('Review draft. Primary user evidence, substantive supervisor feedback and remote submission checks are still outstanding. Proposed design and evaluation plans are not reported as implemented or measured results.',styles['B']),PageBreak()])
     story.append(Paragraph('Contents',styles['TitleNoTOC']));toc=TableOfContents();toc.levelStyles=[styles['Toc1']];story+=[toc,PageBreak()]
-    htmlparts=[f'<!doctype html><html lang="en"><meta charset="utf-8"><title>{esc(TITLE)}</title><style>{CSS}</style><h1>{esc(TITLE)}</h1><p>First submission report · Ayan Abilbek · SE-2401<br>Supervisor: Aliya Katyetova · 22 October 2026</p><p class="notice">Review draft. Interviews and supervisor feedback are missing. No submission is claimed.</p>']
+    htmlparts=[f'<!doctype html><html lang="en"><meta charset="utf-8"><title>{esc(TITLE)}</title><style>{CSS}</style><h1>{esc(TITLE)}</h1><p>First submission report · Ayan Abilbek · SE-2401<br>Supervisor: Aliya Katyetova · 23 October 2026</p><p class="notice">Review draft. Interviews and supervisor feedback are missing. No submission is claimed.</p>']
     htmlparts.append('<nav>'+''.join(f'<p><a href="#s{i}">{esc(s["title"])}</a></p>' for i,s in enumerate(sections))+'</nav>')
     for i,s in enumerate(sections):
         if i:story.extend([Spacer(1,18),CondPageBreak(190)])
@@ -128,7 +129,7 @@ def main():
                 story.append(KeepTogether([d,Spacer(1,6),Paragraph(esc(b['caption']),styles['Cap'])]));hs.append(f'<figure><img src="../diagrams/{b["name"]}.svg" alt="{esc(b["caption"])}"><figcaption>{esc(b["caption"])}</figcaption></figure>')
             else:
                 st=f'<b>[{b["id"]}]</b> {esc(b["text"])}<br/><link href="{esc(b["url"])}" color="#275C69">{esc(b["url"])}</link>'
-                story.append(Paragraph(st,styles['B']));hs.append(f'<p id="{b["id"]}"><strong>[{b["id"]}]</strong> {esc(b["text"])}<br><a href="{esc(b["url"])}">{esc(b["url"])}</a></p>')
+                story.append(Paragraph(st,styles['Ref']));hs.append(f'<p id="{b["id"]}"><strong>[{b["id"]}]</strong> {esc(b["text"])}<br><a href="{esc(b["url"])}">{esc(b["url"])}</a></p>')
         hs.append('</section>');htmlparts+=hs
         slug=re.sub(r'[^a-z0-9]+','-',s['title'].lower()).strip('-')
         (REPO/'docs'/f'{i:02d}-{slug}.html').write_text('<!doctype html><meta charset="utf-8"><style>'+CSS+'</style>'+''.join(hs))

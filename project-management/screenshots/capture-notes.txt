@@ -1,5 +1,4 @@
-Authentic browser captures from the live YouTrack EDU project on 22 October 2026.
-Compiled 22 October 2026, 20:55 Astana (UTC+5)
-board.jpg is the full scrollable board; board-overview.jpg is the viewport overview.
-EDU-3, EDU-5 and EDU-20 are full-page task captures. No mock tracker screens are used.
-The board records preparation before final review and release. Refresh before submitting.
+Current PDF uses four authentic browser captures from 23 October 2026: diploma-board-23oct.png, submission-list-23oct.png, EDU-31-23oct.png and EDU-3-23oct.png.
+The earlier JPG files are retained as dated historical evidence from 22 October; they are not the current board.
+Main board: 30 Diploma tasks (21 backlog, 9 review); saved search: 10 Submission tasks.
+Nineteen later tasks have no due date because university dates are unavailable. No application implementation, interviews or supervisor approval are implied.

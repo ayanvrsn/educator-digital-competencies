@@ -6,7 +6,7 @@ The application is intended to help school educators move from an initial assess
 
 ## Current status
 
-22 October 2026: analysis/design review draft and a local HTML prototype. No production application, teacher interviews, learning outcomes or substantive supervisor review are claimed. The signed/forwarded Justification is preserved privately outside this repository. Its final scope is the basis for the proposal.
+23 October 2026: analysis/design review draft and a local HTML prototype. No production application, teacher interviews, learning outcomes or substantive supervisor review are claimed. The signed/forwarded Justification is preserved privately outside this repository. Its final scope is the basis for the proposal.
 
 All implementation and documentation responsibilities belong to Ayan. The supervisor reviews scope, competence mapping and evaluation. Committee access is a project-review permission and does not authorise access to participant records.
 
@@ -26,7 +26,7 @@ Teacher/admin accounts, an initial assessment, three modules, practical submissi
 
 Repository: https://github.com/ayanvrsn/educator-digital-competencies (private).
 
-Tracker: https://ayan-educator-diploma.youtrack.cloud/projects/EDU. Both were created on 22 October 2026. Recipient access is pending account details. The mapping from local W01-W25 planning references to actual YouTrack issues is in project-management/issue-map.csv.
+Tracker: https://ayan-educator-diploma.youtrack.cloud/projects/EDU. Both were created on 22 October 2026. Recipient access is pending account details. The mapping from local W01-W40 planning references to actual YouTrack issues is in project-management/issue-map.csv.
 
 Review package: [draft PR #1](https://github.com/ayanvrsn/educator-digital-competencies/pull/1). All report, diagram, prototype and tracker files are in `EDU-13/first-submission-preparation`; `main` currently contains the initial scaffold. Human review is pending.
 
@@ -49,3 +49,5 @@ The live form requires `prob-period-1`; the DOCX says `pre-defense-1`. Create bo
 ## Privacy
 
 Never commit secrets, signed personal eligibility documents, identifiable interviews or pupil records. Example configuration contains placeholders only. Store consent and participant contact keys separately from anonymised analysis.
+
+The backlog now contains 40 actual issues: 30 tagged Diploma (research, design, application development, tests and evaluation) and 10 tagged Submission. The main board filters Diploma. The 19 later tasks have no due dates because the university has not yet announced the pre-defence/defence calendar. See project-management/backlog-guide.txt.

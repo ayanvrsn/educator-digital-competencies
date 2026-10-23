@@ -4,7 +4,8 @@ FIRST SUBMISSION CHECKLIST — 24 OCTOBER 2026, 18:00 ASTANA
 [ ] Requirements updated against actual findings
 [ ] Supervisor comments received and decisions recorded
 [x] Repository remote exists and README links are current
-[x] YouTrack project has real assigned/prioritised issues and deadlines
+[x] YouTrack has 40 real assigned/prioritised issues with outcomes and criteria
+[ ] Set due dates for the 19 later tasks after the university calendar is available
 [x] Task -> commit/PR -> deliverable trace verified
 [ ] Supervisor and committee recipient accounts obtained
 [ ] Access checked for every linked resource
@@ -22,4 +23,4 @@ Do not move a previously submitted tag. A late-created repository cannot demonst
 Draft PR: https://github.com/ayanvrsn/educator-digital-competencies/pull/1
 Evidence commit: https://github.com/ayanvrsn/educator-digital-competencies/commit/83862c3ba8ce1d7313d43027566b869067884615
 Task-to-artifact mapping: project-management/artifact-trace.csv
-EDU-18 moved to Review after compilation of the current screenshots PDF. Captures record the earlier preparation state on the same day; refresh before final submission.
+Tracker screenshots refreshed on 23 October: Diploma board, Submission list, EDU-31 and EDU-3. Refresh again if the final submitted state changes.

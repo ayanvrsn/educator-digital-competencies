@@ -1,201 +1,841 @@
-﻿Summary,Description,Type,Priority,State,Assignee,Due Date
-Verify original requirements and final justification,"Local planning ID: W01
-Responsible student: Ayan Abilbek
+﻿Summary,Description,Type,Priority,Stage,Assignee,Due Date,Tags
+W01 — Verify original requirements and final justification,"Local planning ID: W01
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Submission
+
+Schedule: Preparation target: 2026-10-22; official submission deadline: 24 October 2026, 18:00 Astana.
+
+Planning status: Review; board Stage: Review
+
 Expected outcome: Inventory sources and resolve the current topic/scope.
+
 Acceptance criteria: All 11 requirements transcribed; final Justification distinguished from drafts; missing evidence logged.
-Dependencies (local IDs): None
-Target: 2026-10-22
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Review. Do not close until acceptance criteria are met.",Task,Critical,Open,,2026-10-22
-Recruit 3-5 school educators,"Local planning ID: W02
-Responsible student: Ayan Abilbek
+
+Dependencies: None
+
+Requirements: See report and acceptance criteria
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/projects/EDU/issues/EDU-1/W01-Verify-original-requirements-and-final-justification
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,Critical,Review,admin,2026-10-22,Submission
+W02 — Recruit 3-5 school educators,"Local planning ID: W02
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Preparation target: 2026-10-23; official submission deadline: 24 October 2026, 18:00 Astana.
+
+Planning status: Open; board Stage: Backlog
+
 Expected outcome: Arrange actual discussions with adult educators.
+
 Acceptance criteria: 3-5 participants agree to a time; voluntary participation and use of anonymised notes explained.
-Dependencies (local IDs): None
-Target: 2026-10-23
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Open. Do not close until acceptance criteria are met.",Task,Critical,Open,,2026-10-23
-Conduct and document user discussions,"Local planning ID: W03
-Responsible student: Ayan Abilbek
+
+Dependencies: None
+
+Requirements: See report and acceptance criteria
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-2/W02-Recruit-3-5-school-educators
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,Critical,Backlog,admin,2026-10-23,Diploma
+W03 — Conduct and document user discussions,"Local planning ID: W03
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Preparation target: 2026-10-23; official submission deadline: 24 October 2026, 18:00 Astana.
+
+Planning status: Blocked; board Stage: Backlog
+
 Expected outcome: Produce real anonymised notes and a synthesis.
+
 Acceptance criteria: Each record has date, code, permission and actual responses; contradictory evidence retained; no invented quotes.
-Dependencies (local IDs): W02
-Target: 2026-10-23
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Blocked. Do not close until acceptance criteria are met.",Task,Critical,Open,,2026-10-23
-Validate scope and project proposal,"Local planning ID: W04
-Responsible student: Ayan Abilbek
+
+Dependencies: EDU-2
+
+Requirements: See report and acceptance criteria
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-3/W03-Conduct-and-document-user-discussions
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,Critical,Backlog,admin,2026-10-23,Diploma
+W04 — Validate scope and project proposal,"Local planning ID: W04
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Preparation target: 2026-10-23; official submission deadline: 24 October 2026, 18:00 Astana.
+
+Planning status: Review; board Stage: Review
+
 Expected outcome: A realistic proposal tied to evidence and the approved scope.
+
 Acceptance criteria: Aim, objectives, users, scope and expected outcomes are consistent; remaining assumptions labelled.
-Dependencies (local IDs): W01,W03
-Target: 2026-10-23
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Review. Do not close until acceptance criteria are met.",Task,High,Open,,2026-10-23
-Prepare critical literature review,"Local planning ID: W05
-Responsible student: Ayan Abilbek
+
+Dependencies: EDU-1, EDU-3
+
+Requirements: See report and acceptance criteria
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-4/W04-Validate-scope-and-project-proposal
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Review,admin,2026-10-23,Diploma
+W05 — Prepare critical literature review,"Local planning ID: W05
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Preparation target: 2026-10-23; official submission deadline: 24 October 2026, 18:00 Astana.
+
+Planning status: Review; board Stage: Review
+
 Expected outcome: A critical review and structured source table.
+
 Acceptance criteria: At least 12 sources including 8 scientific publications; each is used; references and access limits checked.
-Dependencies (local IDs): W01
-Target: 2026-10-23
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Review. Do not close until acceptance criteria are met.",Task,High,Open,,2026-10-23
-Compare existing systems,"Local planning ID: W06
-Responsible student: Ayan Abilbek
+
+Dependencies: EDU-1
+
+Requirements: See report and acceptance criteria
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-5/W05-Prepare-critical-literature-review
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Review,admin,2026-10-23,Diploma
+W06 — Compare existing systems,"Local planning ID: W06
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Preparation target: 2026-10-23; official submission deadline: 24 October 2026, 18:00 Astana.
+
+Planning status: Review; board Stage: Review
+
 Expected outcome: A supported comparison of 3-5 systems.
+
 Acceptance criteria: 6-10 common criteria; official evidence linked; unknown feature is not labelled absent.
-Dependencies (local IDs): W01
-Target: 2026-10-23
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Review. Do not close until acceptance criteria are met.",Task,High,Open,,2026-10-23
-Compare key technology alternatives,"Local planning ID: W07
-Responsible student: Ayan Abilbek
+
+Dependencies: EDU-1
+
+Requirements: See report and acceptance criteria
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-6/W06-Compare-existing-systems
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Review,admin,2026-10-23,Diploma
+W07 — Compare key technology alternatives,"Local planning ID: W07
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Preparation target: 2026-10-23; official submission deadline: 24 October 2026, 18:00 Astana.
+
+Planning status: Review; board Stage: Review
+
 Expected outcome: Three reasoned technology decisions.
+
 Acceptance criteria: 2-3 alternatives per decision; tradeoffs tied to requirements and individual scope.
-Dependencies (local IDs): W04
-Target: 2026-10-23
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Review. Do not close until acceptance criteria are met.",Task,High,Open,,2026-10-23
-Validate requirements and acceptance criteria,"Local planning ID: W08
-Responsible student: Ayan Abilbek
+
+Dependencies: EDU-4
+
+Requirements: See report and acceptance criteria
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-7/W07-Compare-key-technology-alternatives
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Review,admin,2026-10-23,Diploma
+W08 — Validate requirements and acceptance criteria,"Local planning ID: W08
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Preparation target: 2026-10-23; official submission deadline: 24 October 2026, 18:00 Astana.
+
+Planning status: Review; board Stage: Review
+
 Expected outcome: Numbered functional and non-functional requirements.
+
 Acceptance criteria: Every Must requirement has verifiable acceptance criteria; user evidence and design assumptions distinguished.
-Dependencies (local IDs): W03,W04
-Target: 2026-10-23
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Review. Do not close until acceptance criteria are met.",Task,High,Open,,2026-10-23
-Review context and use case diagrams,"Local planning ID: W09
-Responsible student: Ayan Abilbek
+
+Dependencies: EDU-3, EDU-4
+
+Requirements: See report and acceptance criteria
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-8/W08-Validate-requirements-and-acceptance-criteria
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Review,admin,2026-10-23,Diploma
+W09 — Review context and use case diagrams,"Local planning ID: W09
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Preparation target: 2026-10-23; official submission deadline: 24 October 2026, 18:00 Astana.
+
+Planning status: Review; board Stage: Review
+
 Expected outcome: Editable context and use case diagrams.
+
 Acceptance criteria: Roles, boundaries and scenarios match the specification; readable exports present.
-Dependencies (local IDs): W08
-Target: 2026-10-23
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Review. Do not close until acceptance criteria are met.",Task,High,Open,,2026-10-23
-Review component architecture and data model,"Local planning ID: W10
-Responsible student: Ayan Abilbek
+
+Dependencies: EDU-8
+
+Requirements: See report and acceptance criteria
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-9/W09-Review-context-and-use-case-diagrams
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Review,admin,2026-10-23,Diploma
+W10 — Review component architecture and data model,"Local planning ID: W10
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Preparation target: 2026-10-23; official submission deadline: 24 October 2026, 18:00 Astana.
+
+Planning status: Review; board Stage: Review
+
 Expected outcome: Component diagram and architecture explanation.
+
 Acceptance criteria: Ownership, content versioning, service responsibilities and failure handling documented.
-Dependencies (local IDs): W07,W08
-Target: 2026-10-23
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Review. Do not close until acceptance criteria are met.",Task,High,Open,,2026-10-23
-Build and check UX prototype,"Local planning ID: W11
-Responsible student: Ayan Abilbek
+
+Dependencies: EDU-7, EDU-8
+
+Requirements: See report and acceptance criteria
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-10/W10-Review-component-architecture-and-data-model
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Review,admin,2026-10-23,Diploma
+W11 — Build and check UX prototype,"Local planning ID: W11
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Preparation target: 2026-10-23; official submission deadline: 24 October 2026, 18:00 Astana.
+
+Planning status: Review; board Stage: Review
+
 Expected outcome: Interactive demonstration of key workflows.
+
 Acceptance criteria: Assessment, module, practice, progress and review screens work; simulated data clearly marked; key error states checked.
-Dependencies (local IDs): W08
-Target: 2026-10-23
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Review. Do not close until acceptance criteria are met.",Task,High,Open,,2026-10-23
-Prepare verification and evaluation plan,"Local planning ID: W12
-Responsible student: Ayan Abilbek
+
+Dependencies: EDU-8
+
+Requirements: See report and acceptance criteria
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-11/W11-Build-and-check-UX-prototype
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Review,admin,2026-10-23,Diploma
+W12 — Prepare verification and evaluation plan,"Local planning ID: W12
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Preparation target: 2026-10-23; official submission deadline: 24 October 2026, 18:00 Astana.
+
+Planning status: Review; board Stage: Review
+
 Expected outcome: Tests, outcome metrics, conditions and baseline.
+
 Acceptance criteria: Requirements mapped to tests; pilot sample described as planned; no unmeasured results; rubric and limitations included.
-Dependencies (local IDs): W08
-Target: 2026-10-23
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Review. Do not close until acceptance criteria are met.",Task,High,Open,,2026-10-23
-Create and organise permanent Git repository,"Local planning ID: W13
-Responsible student: Ayan Abilbek
+
+Dependencies: EDU-8
+
+Requirements: See report and acceptance criteria
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-12/W12-Prepare-verification-and-evaluation-plan
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Review,admin,2026-10-23,Diploma
+W13 — Create and organise permanent Git repository,"Local planning ID: W13
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Submission
+
+Schedule: Preparation target: 2026-10-23; official submission deadline: 24 October 2026, 18:00 Astana.
+
+Planning status: In Progress; board Stage: Develop
+
 Expected outcome: Local and remote repository with project materials.
+
 Acceptance criteria: README, structure and .gitignore present; remote accessible; own author identity; no credentials or participant data.
-Dependencies (local IDs): W01
-Target: 2026-10-23
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: In Progress. Do not close until acceptance criteria are met.",Task,Critical,Open,,2026-10-23
-Create YouTrack project and task board,"Local planning ID: W14
-Responsible student: Ayan Abilbek
+
+Dependencies: EDU-1
+
+Requirements: See report and acceptance criteria
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-13/W13-Create-and-organise-permanent-Git-repository
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,Critical,Develop,admin,2026-10-23,Submission
+W14 — Create YouTrack project and task board,"Local planning ID: W14
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Submission
+
+Schedule: Preparation target: 2026-10-23; official submission deadline: 24 October 2026, 18:00 Astana.
+
+Planning status: Review; board Stage: Review
+
 Expected outcome: Accessible tracker with responsible owner, priorities and deadlines.
+
 Acceptance criteria: Real issue IDs recorded; workflow and dependencies checked; all meaningful work represented.
-Dependencies (local IDs): W01
-Target: 2026-10-23
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: In Progress. Do not close until acceptance criteria are met.",Task,Critical,Open,,2026-10-23
-Obtain supervisor feedback,"Local planning ID: W15
-Responsible student: Ayan Abilbek
+
+Dependencies: EDU-1
+
+Requirements: See report and acceptance criteria
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-14/W14-Create-YouTrack-project-and-task-board
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,Critical,Review,admin,2026-10-23,Submission
+W15 — Obtain supervisor feedback,"Local planning ID: W15
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Submission
+
+Schedule: Preparation target: 2026-10-24; official submission deadline: 24 October 2026, 18:00 Astana.
+
+Planning status: Blocked; board Stage: Backlog
+
 Expected outcome: Substantive comments on key deliverables.
+
 Acceptance criteria: Actual source/date recorded; comments address content rather than only eligibility; no generated endorsement.
-Dependencies (local IDs): W04,W05,W08,W10,W12
-Target: 2026-10-24
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Blocked. Do not close until acceptance criteria are met.",Task,Critical,Open,,2026-10-24
-Resolve and record supervisor comments,"Local planning ID: W16
-Responsible student: Ayan Abilbek
+
+Dependencies: EDU-4, EDU-5, EDU-8, EDU-10, EDU-12
+
+Requirements: See report and acceptance criteria
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-15/W15-Obtain-supervisor-feedback
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,Critical,Backlog,admin,2026-10-24,Submission
+W16 — Resolve and record supervisor comments,"Local planning ID: W16
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Submission
+
+Schedule: Preparation target: 2026-10-24; official submission deadline: 24 October 2026, 18:00 Astana.
+
+Planning status: Blocked; board Stage: Backlog
+
 Expected outcome: Traceable revisions and decisions.
+
 Acceptance criteria: Every comment has response, changed artefact or reason for deferral; revisions verified.
-Dependencies (local IDs): W15
-Target: 2026-10-24
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Blocked. Do not close until acceptance criteria are met.",Task,Critical,Open,,2026-10-24
-Grant and verify recipient access,"Local planning ID: W17
-Responsible student: Ayan Abilbek
+
+Dependencies: EDU-15
+
+Requirements: See report and acceptance criteria
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-16/W16-Resolve-and-record-supervisor-comments
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,Critical,Backlog,admin,2026-10-24,Submission
+W17 — Grant and verify recipient access,"Local planning ID: W17
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Submission
+
+Schedule: Preparation target: 2026-10-24; official submission deadline: 24 October 2026, 18:00 Astana.
+
+Planning status: Blocked; board Stage: Backlog
+
 Expected outcome: Supervisor and committee can open all linked materials.
+
 Acceptance criteria: Exact recipient accounts obtained; permissions verified; invitations and acceptance distinguished.
-Dependencies (local IDs): W13,W14
-Target: 2026-10-24
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Blocked. Do not close until acceptance criteria are met.",Task,Critical,Open,,2026-10-24
-Capture authentic tracker screenshots,"Local planning ID: W18
-Responsible student: Ayan Abilbek
+
+Dependencies: EDU-13, EDU-14
+
+Requirements: See report and acceptance criteria
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-17/W17-Grant-and-verify-recipient-access
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,Critical,Backlog,admin,2026-10-24,Submission
+W18 — Capture authentic tracker screenshots,"Local planning ID: W18
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Submission
+
+Schedule: Preparation target: 2026-10-24; official submission deadline: 24 October 2026, 18:00 Astana.
+
+Planning status: Review; board Stage: Review
+
 Expected outcome: Separate readable PDF of board and task cards.
+
 Acceptance criteria: Real board and task views show owner, status, priority, deadline and acceptance criteria; no mock screenshots.
-Dependencies (local IDs): W14
-Target: 2026-10-24
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Review. Do not close until acceptance criteria are met.",Task,High,Open,,2026-10-24
-Build and verify consolidated report,"Local planning ID: W19
-Responsible student: Ayan Abilbek
+
+Dependencies: EDU-14
+
+Requirements: See report and acceptance criteria
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-18/W18-Capture-authentic-tracker-screenshots
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Review,admin,2026-10-24,Submission
+W19 — Build and verify consolidated report,"Local planning ID: W19
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Submission
+
+Schedule: Preparation target: 2026-10-24; official submission deadline: 24 October 2026, 18:00 Astana.
+
+Planning status: Review; board Stage: Review
+
 Expected outcome: Single PDF containing all eleven sections.
+
 Acceptance criteria: Tables/diagrams readable; references valid; gaps visible; current links and supervisor changes incorporated.
-Dependencies (local IDs): W03,W04,W05,W06,W07,W08,W09,W10,W11,W12,W16
-Target: 2026-10-24
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Review. Do not close until acceptance criteria are met.",Task,Critical,Open,,2026-10-24
-Freeze and tag the first submission,"Local planning ID: W20
-Responsible student: Ayan Abilbek
+
+Dependencies: EDU-3, EDU-4, EDU-5, EDU-6, EDU-7, EDU-8, EDU-9, EDU-10, EDU-11, EDU-12, EDU-16
+
+Requirements: See report and acceptance criteria
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-19/W19-Build-and-verify-consolidated-report
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,Critical,Review,admin,2026-10-24,Submission
+W20 — Freeze and tag the first submission,"Local planning ID: W20
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Submission
+
+Schedule: Preparation target: 2026-10-24; official submission deadline: 24 October 2026, 18:00 Astana.
+
+Planning status: Blocked; board Stage: Backlog
+
 Expected outcome: Immutable prob-period-1 and pre-defense-1 tags on the same commit, plus release summary.
+
 Acceptance criteria: Both tags point to the exact submitted commit; use prob-period-1 in the live form; limitations/open tasks included; no prior tag moved.
-Dependencies (local IDs): W17,W18,W19
-Target: 2026-10-24
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Blocked. Do not close until acceptance criteria are met.",Task,Critical,Open,,2026-10-24
-Submit form and save receipt,"Local planning ID: W21
-Responsible student: Ayan Abilbek
+
+Dependencies: EDU-17, EDU-18, EDU-19
+
+Requirements: See report and acceptance criteria
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-20/W20-Freeze-and-tag-the-first-submission
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,Critical,Backlog,admin,2026-10-24,Submission
+W21 — Submit form and save receipt,"Local planning ID: W21
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Submission
+
+Schedule: Preparation target: 2026-10-24; official submission deadline: 24 October 2026, 18:00 Astana.
+
+Planning status: Blocked; board Stage: Backlog
+
 Expected outcome: Verified form submission by 18:00 Astana.
+
 Acceptance criteria: Required fields and both PDFs accepted; links accessible; confirmation/receipt saved. Target 17:30.
-Dependencies (local IDs): W20
-Target: 2026-10-24
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Blocked. Do not close until acceptance criteria are met.",Task,Critical,Open,,2026-10-24
-Implement accounts and content versions,"Local planning ID: W22
-Responsible student: Ayan Abilbek
-Expected outcome: First implementation increment.
-Acceptance criteria: FR01 and FR09 plus ownership/version tests pass; target set with third-trimester schedule.
-Dependencies (local IDs): W08,W10
-Target: Set with supervisor in third trimester
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Open. Do not close until acceptance criteria are met.",Task,High,Open,,
-Implement assessment to practice workflow,"Local planning ID: W23
-Responsible student: Ayan Abilbek
-Expected outcome: One complete vertical workflow, then all 3 modules.
-Acceptance criteria: FR02-FR08 run end-to-end with real persistence; boundary and retry tests pass.
-Dependencies (local IDs): W22
-Target: Set with supervisor in third trimester
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Open. Do not close until acceptance criteria are met.",Task,High,Open,,
-Run pilot and analyse actual evidence,"Local planning ID: W24
-Responsible student: Ayan Abilbek
+
+Dependencies: EDU-20
+
+Requirements: See report and acceptance criteria
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-21/W21-Submit-form-and-save-receipt
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,Critical,Backlog,admin,2026-10-24,Submission
+W22 — Implement teacher and administrator authentication,"Local planning ID: W22
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Unscheduled: university dates have not been provided (confirmed by student on 23 October 2026).
+
+Planning status: Open; board Stage: Backlog
+
+Expected outcome: Accounts, sessions and role-based access for teachers and administrators.
+
+Acceptance criteria: A teacher can register/sign in/sign out; passwords are securely hashed; invalid inputs are rejected; protected APIs check session, role and record ownership; cross-user access tests pass.
+
+Dependencies: EDU-8, EDU-10, EDU-26
+
+Requirements: FR01,NFR01
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-22/W22-Implement-teacher-and-administrator-authentication
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Backlog,admin,,Diploma
+"W23 — Implement diagnostic questions, scoring and attempt history","Local planning ID: W23
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Unscheduled: university dates have not been provided (confirmed by student on 23 October 2026).
+
+Planning status: Open; board Stage: Backlog
+
+Expected outcome: Nine scenario questions and separate confidence responses produce a persisted diagnostic attempt.
+
+Acceptance criteria: All required answers are checked on the server; tampered scores are ignored; three topic scores and confidence remain separate; attempts retain the content version; retry creates no duplicate attempt; teacher can view own history.
+
+Dependencies: EDU-22, EDU-27
+
+Requirements: FR02-FR03,NFR05
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-23/W23-Implement-diagnostic-questions-scoring-and-attempt-history
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Backlog,admin,,Diploma
+W24 — Run pilot and analyse actual evidence,"Local planning ID: W24
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Unscheduled: university dates have not been provided (confirmed by student on 23 October 2026).
+
+Planning status: Open; board Stage: Backlog
+
 Expected outcome: Consent-based formative evaluation.
-Acceptance criteria: Actual sample, exclusions, individual outcomes and limitations reported; no causal overclaim.
-Dependencies (local IDs): W23,W12
-Target: Set with supervisor in third trimester
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Open. Do not close until acceptance criteria are met.",Task,High,Open,,
-Revise thesis and prepare defence,"Local planning ID: W25
-Responsible student: Ayan Abilbek
+
+Acceptance criteria: Begin only after mandatory application scenarios and security, accessibility and recovery checks pass, consent is obtained, and the supervisor reviews the module tasks and rubric. Freeze application, content and baseline versions. Report the actual sample, exclusions, individual outcomes and limitations; make no causal overclaim.
+
+Dependencies: EDU-12, EDU-32, EDU-33, EDU-34, EDU-35, EDU-36, EDU-38, EDU-39, EDU-40
+
+Requirements: See report and acceptance criteria
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-24/W24-Run-pilot-and-analyse-actual-evidence
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Backlog,admin,,Diploma
+W25 — Revise thesis and prepare defence,"Local planning ID: W25
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Unscheduled: university dates have not been provided (confirmed by student on 23 October 2026).
+
+Planning status: Open; board Stage: Backlog
+
 Expected outcome: Final report, demonstration and explainable design choices.
+
 Acceptance criteria: Final calendar agreed; source/results reproducible; student can explain individual contributions.
-Dependencies (local IDs): W24
-Target: Set with supervisor in third trimester
-Evidence: link the actual deliverable/commit/PR here when available.
-Current preparation status: Open. Do not close until acceptance criteria are met.",Task,Normal,Open,,
+
+Dependencies: EDU-24
+
+Requirements: See report and acceptance criteria
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-25/W25-Revise-thesis-and-prepare-defence
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,Normal,Backlog,admin,,Diploma
+W26 — Create PostgreSQL schema and migration workflow,"Local planning ID: W26
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Unscheduled: university dates have not been provided (confirmed by student on 23 October 2026).
+
+Planning status: Open; board Stage: Backlog
+
+Expected outcome: Persistent data model for accounts, versioned content, assessment attempts, submissions and reviews.
+
+Acceptance criteria: Migrations run on an empty database; foreign keys preserve ownership and content versions; synthetic seed data loads; rollback or recovery is documented.
+
+Dependencies: EDU-8, EDU-10
+
+Requirements: FR01-FR10, NFR05-NFR06
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-26/W26-Create-PostgreSQL-schema-and-migration-workflow
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Backlog,admin,,Diploma
+W27 — Build the three-module catalogue and lesson screens,"Local planning ID: W27
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Unscheduled: university dates have not been provided (confirmed by student on 23 October 2026).
+
+Planning status: Open; board Stage: Backlog
+
+Expected outcome: Teachers can browse and study the three agreed learning modules.
+
+Acceptance criteria: Only published versions are visible; module objectives and practice instructions are shown; lesson completion is persisted per teacher; empty and loading states work.
+
+Dependencies: EDU-22, EDU-27
+
+Requirements: FR05, FR08-FR09
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-28/W27-Build-the-three-module-catalogue-and-lesson-screens
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Backlog,admin,,Diploma
+W28 — Implement versioned content publishing for administrators,"Local planning ID: W28
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Unscheduled: university dates have not been provided (confirmed by student on 23 October 2026).
+
+Planning status: Open; board Stage: Backlog
+
+Expected outcome: Administrators manage diagnostic questions, lessons and module versions.
+
+Acceptance criteria: Admin can draft, preview and publish a version; teachers cannot publish; published versions used by past attempts remain unchanged; invalid content is rejected.
+
+Dependencies: EDU-22, EDU-26
+
+Requirements: FR09, NFR01,NFR05
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-27/W28-Implement-versioned-content-publishing-for-administrators
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Backlog,admin,,Diploma
+W29 — Recommend a starting module from diagnostic results,"Local planning ID: W29
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Unscheduled: university dates have not been provided (confirmed by student on 23 October 2026).
+
+Planning status: Open; board Stage: Backlog
+
+Expected outcome: A teacher sees a recommended module with an understandable reason.
+
+Acceptance criteria: Apply documented lowest-score, incomplete-module and tie rules; keep confidence separate; cover absent attempts and completed modules; teacher can choose another module.
+
+Dependencies: EDU-23
+
+Requirements: FR04
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-29/W29-Recommend-a-starting-module-from-diagnostic-results
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Backlog,admin,,Diploma
+W30 — Save and submit practical work for review,"Local planning ID: W30
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Unscheduled: university dates have not been provided (confirmed by student on 23 October 2026).
+
+Planning status: Open; board Stage: Backlog
+
+Expected outcome: Teachers save a draft and submit a practical response for a module.
+
+Acceptance criteria: Draft survives reload; empty response and malformed links are rejected; repeat submission does not duplicate work; resubmission clears previous acceptance; failures preserve the draft.
+
+Dependencies: EDU-22, EDU-28
+
+Requirements: FR06,FR11,NFR05
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-30/W30-Save-and-submit-practical-work-for-review
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Backlog,admin,,Diploma
+W31 — Review practical work with a rubric and feedback,"Local planning ID: W31
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Unscheduled: university dates have not been provided (confirmed by student on 23 October 2026).
+
+Planning status: Open; board Stage: Backlog
+
+Expected outcome: Administrator can request revision or accept a teacher submission.
+
+Acceptance criteria: Four rubric criteria use 0-2 points; feedback is required; only an authorised reviewer can act; teacher sees score, comment and state; review history is retained.
+
+Dependencies: EDU-22, EDU-30
+
+Requirements: FR07,NFR01
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-31/W31-Review-practical-work-with-a-rubric-and-feedback
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Backlog,admin,,Diploma
+W32 — Show persistent learning progress and review states,"Local planning ID: W32
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Unscheduled: university dates have not been provided (confirmed by student on 23 October 2026).
+
+Planning status: Open; board Stage: Backlog
+
+Expected outcome: Teacher dashboard shows diagnostic results, module progress and feedback.
+
+Acceptance criteria: Assessment, confidence and rubric results stay separate; lesson click alone does not finish a module; completion requires accepted practice; teacher sees only own records after sign-in and reload.
+
+Dependencies: EDU-23, EDU-28, EDU-31
+
+Requirements: FR03,FR08,NFR01
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-32/W32-Show-persistent-learning-progress-and-review-states
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Backlog,admin,,Diploma
+W33 — Implement teacher data export and deletion request,"Local planning ID: W33
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Unscheduled: university dates have not been provided (confirmed by student on 23 October 2026).
+
+Planning status: Open; board Stage: Backlog
+
+Expected outcome: Teachers can inspect/export their own records and request account-data deletion.
+
+Acceptance criteria: Export includes only own data; another user ID cannot expose records; deletion follows documented retention rules and is confirmed before execution; relational data remains consistent.
+
+Dependencies: EDU-22, EDU-26
+
+Requirements: FR10,FR12,NFR07
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-33/W33-Implement-teacher-data-export-and-deletion-request
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Backlog,admin,,Diploma
+W34 — Export anonymised pilot data with consent controls,"Local planning ID: W34
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Unscheduled: university dates have not been provided (confirmed by student on 23 October 2026).
+
+Planning status: Open; board Stage: Backlog
+
+Expected outcome: Research export contains only consenting participants and permitted fields.
+
+Acceptance criteria: Consent and withdrawal are recorded; non-consenting records are excluded; participant codes replace identity; contact keys are kept separately; teacher accounts cannot export other participants.
+
+Dependencies: EDU-22, EDU-26
+
+Requirements: FR12,NFR01,NFR07
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-34/W34-Export-anonymised-pilot-data-with-consent-controls
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Backlog,admin,,Diploma
+"W35 — Test authorization, ownership and submission consistency","Local planning ID: W35
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Unscheduled: university dates have not been provided (confirmed by student on 23 October 2026).
+
+Planning status: Open; board Stage: Backlog
+
+Expected outcome: Automated checks protect teacher data and workflow state transitions.
+
+Acceptance criteria: Test unauthenticated access, teacher A/B isolation and admin routes; tampered scoring is rejected; duplicate/retried submissions remain consistent; regression covers resubmitting accepted work.
+
+Dependencies: EDU-22, EDU-23, EDU-27, EDU-31, EDU-34
+
+Requirements: TC01-TC07,TC10
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-35/W35-Test-authorization-ownership-and-submission-consistency
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Backlog,admin,,Diploma
+W36 — Test keyboard access and responsive layouts,"Local planning ID: W36
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Unscheduled: university dates have not been provided (confirmed by student on 23 October 2026).
+
+Planning status: Open; board Stage: Backlog
+
+Expected outcome: Key teacher/admin workflows are usable at the defined widths and with a keyboard.
+
+Acceptance criteria: Check 360/768/1280 widths, 200% zoom, visible focus, control labels and error announcements; record actual results and fix blocking issues; do not infer full WCAG conformance from automated checks.
+
+Dependencies: EDU-28, EDU-30, EDU-32
+
+Requirements: TC08,NFR02-NFR03
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-36/W36-Test-keyboard-access-and-responsive-layouts
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Backlog,admin,,Diploma
+W37 — Measure performance and verify backup recovery,"Local planning ID: W37
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Unscheduled: university dates have not been provided (confirmed by student on 23 October 2026).
+
+Planning status: Open; board Stage: Backlog
+
+Expected outcome: Measured application latency, error rates and recoverability.
+
+Acceptance criteria: Run the planned 20-session workload for 5 minutes with 100 synthetic accounts; retain p50/p95/errors; restore a backup in an isolated database and check counts/references; record actual results against targets.
+
+Dependencies: EDU-35, EDU-37
+
+Requirements: TC09-TC10,NFR04-NFR05,NFR08
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-38/W37-Measure-performance-and-verify-backup-recovery
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Backlog,admin,,Diploma
+W38 — Prepare reproducible application setup and staging deployment,"Local planning ID: W38
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Unscheduled: university dates have not been provided (confirmed by student on 23 October 2026).
+
+Planning status: Open; board Stage: Backlog
+
+Expected outcome: Application can be configured, migrated, seeded, run and tested from a clean checkout.
+
+Acceptance criteria: Pin dependencies and supply safe environment examples; README commands work on a clean environment; staging uses HTTPS; no credentials or real participant data enter Git; deployment and rollback are documented.
+
+Dependencies: EDU-22, EDU-26
+
+Requirements: TC11,NFR06
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-37/W38-Prepare-reproducible-application-setup-and-staging-deployment
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Backlog,admin,,Diploma
+W39 — Build the static resource baseline for evaluation,"Local planning ID: W39
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Unscheduled: university dates have not been provided (confirmed by student on 23 October 2026).
+
+Planning status: Open; board Stage: Backlog
+
+Expected outcome: A comparison page offers equivalent learning content without personalised recommendations.
+
+Acceptance criteria: Use the same three topics and comparable content; document differences; freeze baseline and app versions; prepare equivalent navigation tasks and alternate task order.
+
+Dependencies: EDU-28, EDU-12
+
+Requirements: Evaluation baseline, section 9
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-39/W39-Build-the-static-resource-baseline-for-evaluation
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Backlog,admin,,Diploma
+W40 — Prepare parallel learning tasks and calibrate the rubric,"Local planning ID: W40
+
+Responsible student: Ayan Abilbek (admin account)
+
+Workstream: Diploma
+
+Schedule: Unscheduled: university dates have not been provided (confirmed by student on 23 October 2026).
+
+Planning status: Open; board Stage: Backlog
+
+Expected outcome: Pilot materials are ready to evaluate usability and practical task performance.
+
+Acceptance criteria: Prepare parallel pre/post tasks, consent script and observation sheet; review the four-criterion rubric with the supervisor; record calibration decisions and any lack of independent scoring before recruitment.
+
+Dependencies: EDU-12, EDU-39
+
+Requirements: Evaluation protocol, section 9
+
+Existing issue: https://ayan-educator-diploma.youtrack.cloud/issue/EDU-40/W40-Prepare-parallel-learning-tasks-and-calibrate-the-rubric
+
+Portability backup. Do not import as new issues into the existing project. Link actual implementation evidence before closing; planned work is not a completed result.",Task,High,Backlog,admin,,Diploma
